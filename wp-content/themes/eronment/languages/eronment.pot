@@ -1,0 +1,619 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: eronment version 1.0\n"
+"POT-Creation-Date: 2018-10-16 10:00+0600\n"
+"PO-Revision-Date: 2018-01-09 14:59+0500\n"
+"Last-Translator: amir <amirkhan0617@gmail.com>\n"
+"Language-Team: Template Path <muhibbur@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;_n;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: 404.php:30 404.php:37
+msgid "Go to Home"
+msgstr ""
+
+#: 404.php:34
+msgid "404"
+msgstr ""
+
+#: 404.php:35
+msgid "Oops! That page can not be found"
+msgstr ""
+
+#: 404.php:36
+msgid "Sorry, but the page you are looking for does not existing"
+msgstr ""
+
+#: blog.php:28 includes/library/widgets.php:362
+#: includes/modules/shortcodes/blog_grid.php:39 singlepost.php:26
+msgid "By: "
+msgstr ""
+
+#: blog.php:49 includes/modules/shortcodes/blog.php:47
+#: includes/modules/shortcodes/blog_grid.php:76
+msgid " Read More "
+msgstr ""
+
+#: comments.php:35
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:36
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:41
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:33
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:34
+msgid "Onepage"
+msgstr ""
+
+#: functions.php:35
+msgid "Portfolio"
+msgstr ""
+
+#: functions.php:36
+msgid "Extra Menu"
+msgstr ""
+
+#: functions.php:67
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions.php:69 functions.php:89
+msgid "Widgets in this area will be shown on the right-hand side."
+msgstr ""
+
+#: functions.php:77
+msgid "Footer Sidebar"
+msgstr ""
+
+#: functions.php:79
+msgid "Widgets in this area will be shown in Footer Area."
+msgstr ""
+
+#: functions.php:87
+msgid "Blog Listing"
+msgstr ""
+
+#: functions.php:200 functions.php:201
+msgid "on"
+msgstr ""
+
+#: includes/library/functions.php:31 includes/library/widgets.php:85
+#: includes/library/widgets.php:179 includes/library/widgets.php:263
+#: includes/library/widgets.php:347 includes/library/widgets.php:427
+#: includes/library/widgets.php:500
+msgid "All Categories"
+msgstr ""
+
+#: includes/library/functions.php:55
+msgid "No Sidebar"
+msgstr ""
+
+#: includes/library/functions.php:120
+msgid "Home"
+msgstr ""
+
+#: includes/library/functions.php:168 includes/library/functions.php:169
+#: includes/library/functions.php:170 includes/library/functions.php:171
+msgid "Archive for "
+msgstr ""
+
+#: includes/library/functions.php:172
+msgid "Search Results for "
+msgstr ""
+
+#: includes/library/functions.php:173
+msgid "404 - Not Found"
+msgstr ""
+
+#: includes/library/functions.php:191
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: includes/library/functions.php:218
+msgid "You must agreed the policy"
+msgstr ""
+
+#: includes/library/functions.php:228
+msgid "Registration Successful - An email is sent"
+msgstr ""
+
+#: includes/library/functions.php:232
+msgid "Username or email already exists.  Password inherited."
+msgstr ""
+
+#: includes/library/functions.php:294
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: includes/library/functions.php:309
+msgid "Your email address will not be published."
+msgstr ""
+
+#: includes/library/functions.php:314
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: includes/library/functions.php:315
+msgid "Cancel reply"
+msgstr ""
+
+#: includes/library/functions.php:316
+msgid "Post Comment"
+msgstr ""
+
+#: includes/library/functions.php:345
+msgid " Add a Comment "
+msgstr ""
+
+#: includes/library/functions.php:638
+msgid "Loading..."
+msgstr ""
+
+#: includes/library/widgets.php:28
+msgid "Theme Gallery"
+msgstr ""
+
+#: includes/library/widgets.php:28
+msgid "Show the Gallery images"
+msgstr ""
+
+#: includes/library/widgets.php:70
+msgid "Gallery Widget"
+msgstr ""
+
+#: includes/library/widgets.php:75 includes/library/widgets.php:169
+#: includes/library/widgets.php:253 includes/library/widgets.php:337
+#: includes/library/widgets.php:723
+msgid "Title: "
+msgstr ""
+
+#: includes/library/widgets.php:79 includes/library/widgets.php:173
+#: includes/library/widgets.php:257 includes/library/widgets.php:341
+#: includes/library/widgets.php:421 includes/library/widgets.php:494
+msgid "No. of Posts:"
+msgstr ""
+
+#: includes/library/widgets.php:84 includes/library/widgets.php:178
+#: includes/library/widgets.php:262 includes/library/widgets.php:346
+#: includes/library/widgets.php:426 includes/library/widgets.php:499
+msgid "Category"
+msgstr ""
+
+#: includes/library/widgets.php:123
+msgid "Theme News-1"
+msgstr ""
+
+#: includes/library/widgets.php:123 includes/library/widgets.php:207
+#: includes/library/widgets.php:291
+msgid "Show the recent news sidebar"
+msgstr ""
+
+#: includes/library/widgets.php:164 includes/library/widgets.php:248
+#: includes/library/widgets.php:332 includes/library/widgets.php:719
+msgid "Recent News"
+msgstr ""
+
+#: includes/library/widgets.php:207
+msgid "Theme News-2"
+msgstr ""
+
+#: includes/library/widgets.php:291
+msgid "Theme News-3"
+msgstr ""
+
+#: includes/library/widgets.php:379
+msgid "Theme Services Menu"
+msgstr ""
+
+#: includes/library/widgets.php:379
+msgid "Show services menu in sidebar."
+msgstr ""
+
+#: includes/library/widgets.php:450
+msgid "Theme Testimonials"
+msgstr ""
+
+#: includes/library/widgets.php:450
+msgid "Show the testimonials sidebar"
+msgstr ""
+
+#: includes/library/widgets.php:541
+msgid "Theme Call Us"
+msgstr ""
+
+#: includes/library/widgets.php:541 includes/library/widgets.php:667
+#: includes/library/widgets.php:753 includes/library/widgets.php:940
+#: includes/library/widgets.php:1021
+msgid "Show the information about company"
+msgstr ""
+
+#: includes/library/widgets.php:558
+msgid "More Details"
+msgstr ""
+
+#: includes/library/widgets.php:590 includes/library/widgets.php:727
+#: includes/library/widgets.php:918 includes/library/widgets.php:1004
+#: includes/library/widgets.php:1090 includes/library/widgets.php:1169
+#: includes/library/widgets.php:1252
+msgid "Content:"
+msgstr ""
+
+#: includes/library/widgets.php:594 includes/library/widgets.php:827
+msgid "Phone:"
+msgstr ""
+
+#: includes/library/widgets.php:595 includes/library/widgets.php:828
+msgid "Phone"
+msgstr ""
+
+#: includes/library/widgets.php:598
+msgid "Link here:"
+msgstr ""
+
+#: includes/library/widgets.php:599
+msgid "Link here"
+msgstr ""
+
+#: includes/library/widgets.php:613
+msgid "Theme Brochures"
+msgstr ""
+
+#: includes/library/widgets.php:613
+msgid "Show the info Our Brochures"
+msgstr ""
+
+#: includes/library/widgets.php:626
+msgid "DetailsBrochure.pdf"
+msgstr ""
+
+#: includes/library/widgets.php:651
+msgid "PDF Link:"
+msgstr ""
+
+#: includes/library/widgets.php:652
+msgid "PDF link here"
+msgstr ""
+
+#: includes/library/widgets.php:667
+msgid "Theme About & Subscribe"
+msgstr ""
+
+#: includes/library/widgets.php:685
+msgid "Enter Your Email"
+msgstr ""
+
+#: includes/library/widgets.php:686
+msgid "Subscribe"
+msgstr ""
+
+#: includes/library/widgets.php:731
+msgid "Newsletter ID:"
+msgstr ""
+
+#: includes/library/widgets.php:732
+msgid "newsletter id here"
+msgstr ""
+
+#: includes/library/widgets.php:735
+msgid "Newsletter ID Show/Hide:"
+msgstr ""
+
+#: includes/library/widgets.php:753
+msgid "Theme Contact Us"
+msgstr ""
+
+#: includes/library/widgets.php:819 includes/library/widgets.php:914
+#: includes/library/widgets.php:992 includes/library/widgets.php:1077
+msgid "Title:"
+msgstr ""
+
+#: includes/library/widgets.php:820
+msgid "Title"
+msgstr ""
+
+#: includes/library/widgets.php:823
+msgid "Address:"
+msgstr ""
+
+#: includes/library/widgets.php:824
+msgid "Address"
+msgstr ""
+
+#: includes/library/widgets.php:831
+msgid "Email:"
+msgstr ""
+
+#: includes/library/widgets.php:832
+msgid "Email"
+msgstr ""
+
+#: includes/library/widgets.php:835
+msgid "Social Icons Show/Hide:"
+msgstr ""
+
+#: includes/library/widgets.php:853
+msgid "Theme Subscribe Us"
+msgstr ""
+
+#: includes/library/widgets.php:853
+msgid "Show the information Subscribe company"
+msgstr ""
+
+#: includes/library/widgets.php:872
+msgid "Enter Email"
+msgstr ""
+
+#: includes/library/widgets.php:915 includes/library/widgets.php:993
+#: includes/library/widgets.php:1078
+msgid "About Us"
+msgstr ""
+
+#: includes/library/widgets.php:922 includes/library/widgets.php:1094
+msgid "Show Social Icons:"
+msgstr ""
+
+#: includes/library/widgets.php:940
+msgid "Theme About & Map"
+msgstr ""
+
+#: includes/library/widgets.php:996 includes/library/widgets.php:1086
+#: includes/library/widgets.php:1165
+msgid "Image Link:"
+msgstr ""
+
+#: includes/library/widgets.php:1000
+msgid "Map Image:"
+msgstr ""
+
+#: includes/library/widgets.php:1021
+msgid "Theme About & Social"
+msgstr ""
+
+#: includes/library/widgets.php:1081
+msgid "Show Image :"
+msgstr ""
+
+#: includes/library/widgets.php:1111
+msgid "Theme Call to Action"
+msgstr ""
+
+#: includes/library/widgets.php:1111
+msgid "Show Call to Action"
+msgstr ""
+
+#: includes/library/widgets.php:1173 includes/library/widgets.php:1256
+msgid "Content Two:"
+msgstr ""
+
+#: includes/library/widgets.php:1177 includes/library/widgets.php:1260
+msgid "Content Three:"
+msgstr ""
+
+#: includes/library/widgets.php:1181
+msgid "Button:"
+msgstr ""
+
+#: includes/library/widgets.php:1185
+msgid "Button Link:"
+msgstr ""
+
+#: includes/library/widgets.php:1201
+msgid "Theme Contact Us-2"
+msgstr ""
+
+#: includes/library/widgets.php:1201
+msgid "Show the Contact company"
+msgstr ""
+
+#: includes/loader.php:152 includes/loader.php:153
+msgid "Theme Options"
+msgstr ""
+
+#: includes/modules/shortcodes/blog_grid.php:45
+#: includes/modules/shortcodes/blog_grid.php:54
+#: includes/modules/shortcodes/blog_grid.php:62
+msgid " "
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:610
+msgid "Update Required"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:914
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2620
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3667
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1021
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1021
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1024
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1024
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2429
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2479
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2483
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2487
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2569
+msgid "unknown"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2620
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2771
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2995
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3021
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3039
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:3604
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/plugins.php:63
+msgid "Theme Support (Required)"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/plugins.php:74
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/plugins.php:85
+msgid "KingComposer"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/plugins.php:90
+msgid "page-scroll-to-id"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/plugins.php:96
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/vc_map.php:6
+msgid "bbPress Forums"
+msgstr ""
+
+#: includes/vc_map.php:9
+msgid "Jollyall"
+msgstr ""
+
+#: includes/vc_map.php:16
+msgid "Forum"
+msgstr ""
+
+#: includes/vc_map.php:177
+msgid "Container"
+msgstr ""
+
+#: includes/vc_map.php:180
+msgid "Choose whether you want to add a container before row or not."
+msgstr ""
+
+#: index.php:40
+msgid "Our Blog"
+msgstr ""
+
+#: page.php:51 singlepost.php:48
+msgid "Pages: "
+msgstr ""
+
+#: post_navigation.php:10
+msgid "Prev Post "
+msgstr ""
+
+#: post_navigation.php:13
+msgid "Next Post "
+msgstr ""
+
+#: search.php:74
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for"
+msgstr ""
+
+#: search.php:75
+msgid "1. Check the spelling "
+msgstr ""
+
+#: search.php:77
+msgid "2. Check the Caps Lock"
+msgstr ""
+
+#: search.php:79
+msgid "3. Press Enter correctly or Press F5"
+msgstr ""
+
+#: search.php:82
+msgid "Perhaps Searching can help."
+msgstr ""
+
+#: search.php:88
+msgid "Go Home"
+msgstr ""
+
+#: sidebar.php:15
+msgid "by : "
+msgstr ""
+
+#: sidebar.php:17
+msgid "in : "
+msgstr ""
+
+#: sidebar.php:19
+msgid " 123 Likes "
+msgstr ""
+
+#: sidebar.php:21
+msgid " Print "
+msgstr ""
+
+#: sidebar.php:35
+msgid "Read More"
+msgstr ""

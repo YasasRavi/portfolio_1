@@ -1,0 +1,28 @@
+/* PAGE: PORTFOLIO
+-------------------------------------------- */
+
+:root {
+	--vp-color-brand: var(--vlt-color-accent);
+}
+
+.vlt-theme-merge {
+
+	.vp-fancybox {
+		--vp-popup__z-index: #{z("fancybox")};
+	}
+
+	.vp-fancybox .fancybox-bg {
+		background-color: var(--vlt-overlay-background);
+	}
+
+}
+
+// import
+@import "portfolio/pagination";
+@import "portfolio/filters";
+@import "portfolio/styles/default";
+@import "portfolio/styles/fade";
+@import "portfolio/styles/fly";
+@import "portfolio/styles/emerge";
+@import "portfolio/work/work-style-1";
+@import "portfolio/work/work-instagram";

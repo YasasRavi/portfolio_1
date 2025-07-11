@@ -1,0 +1,25 @@
+/* WIDGET: WIDGET ABOUT
+-------------------------------------------- */
+
+.vlt-widget.vlt_widget_about {
+
+	.vlt-widget-about {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+
+		&__image {
+			margin-bottom: px2rem(30px);
+		}
+
+		&__title {
+			margin-bottom: px2rem(20px);
+		}
+
+		&__description {
+			text-align: center;
+		}
+
+	}
+
+}

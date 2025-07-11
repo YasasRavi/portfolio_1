@@ -1,0 +1,69 @@
+/* WIDGET: SLIDE PHOTO
+-------------------------------------------- */
+
+.vlt-slide-photo {
+	position: relative;
+	line-height: 0;
+	z-index: 1;
+
+	&::before {
+		content: "";
+		position: absolute;
+		right: px2rem(40px);
+		bottom: px2rem(-6px);
+		left: px2rem(40px);
+		height: calc(px2rem(40px) * 1.5);
+		background-image: var(--vlt-linear-gradient-accent);
+		border-radius: 0 0 var(--vlt-border-radius) var(--vlt-border-radius);
+		transition: transform var(--vlt-transition-duration) var(--vlt-transition-easing);
+		z-index: -1;
+	}
+
+	&__inside {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		overflow: hidden;
+		border-radius: px2rem(250px) px2rem(250px) calc(var(--vlt-border-radius) * 4) calc(var(--vlt-border-radius) * 4);
+
+		.vlt-marquee-text {
+			position: absolute;
+			right: -10%;
+			bottom: px2rem(120px);
+			left: -10%;
+			width: 120%;
+			padding: px2rem(10px) 0;
+			color: var(--vlt-color-black);
+			background-color: var(--vlt-color-accent);
+			transform: rotate(-15deg);
+		}
+
+	}
+
+	&__particle {
+		position: absolute;
+		display: inline-block;
+		width: auto;
+		overflow: hidden;
+		backface-visibility: hidden;
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+
+		&.negative-z-index {
+			z-index: -1;
+		}
+
+	}
+
+	&:hover {
+
+		&::before {
+			transform: scaleY(1.1);
+		}
+
+	}
+
+}

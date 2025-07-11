@@ -1,0 +1,278 @@
+/* WORDPRESS: PAGE NAVIGATION
+-------------------------------------------- */
+
+.vlt-page-navigation {
+	color: var(--vlt-color-black);
+	@include vlt_gradient_animation;
+
+	.overflow-hidden {
+		display: inherit;
+	}
+
+	.all {
+		line-height: 0;
+
+		a {
+
+			.grid {
+				position: relative;
+				display: inline-block;
+				width: 16px;
+				height: 16px;
+
+				span {
+					position: absolute;
+					display: block;
+					width: 6px;
+					height: 6px;
+					background-color: currentColor;
+					border-radius: calc(var(--vlt-border-radius) / 2);
+					transition: transform var(--vlt-transition-duration) var(--vlt-transition-easing);
+
+					&:nth-child(1) {
+						top: 0;
+						left: 0;
+					}
+
+					&:nth-child(2) {
+						top: 0;
+						right: 0;
+					}
+
+					&:nth-child(3) {
+						right: 0;
+						bottom: 0;
+					}
+
+					&:nth-child(4) {
+						bottom: 0;
+						left: 0;
+					}
+
+				}
+
+			}
+
+			&:hover {
+
+				.grid {
+
+					span {
+
+						&:nth-child(1) {
+							transform: translate3d(10px, 0, 0);
+						}
+
+						&:nth-child(2) {
+							transform: translate3d(0, 10px, 0);
+						}
+
+						&:nth-child(3) {
+							transform: translate3d(-10px, 0, 0);
+						}
+
+						&:nth-child(4) {
+							transform: translate3d(0, -10px, 0);
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+/* SECTION: STYLE 1
+-------------------------------------------- */
+
+.vlt-page-navigation--style-1 {
+	display: flex;
+	align-items: center;
+	min-height: px2rem(100px);
+	padding: px2rem(32px) 0;
+
+	.all {
+
+		a {
+			display: inline-flex;
+			display: inline-flex;
+			align-items: center;
+			align-items: center;
+			justify-content: center;
+			justify-content: center;
+			width: px2rem(60px);
+			height: px2rem(60px);
+			color: var(--vlt-color-white);
+			background-color: var(--vlt-color-black);
+			border-radius: calc(var(--vlt-border-radius) * 10);
+			z-index: 1;
+
+			&:hover {
+				background-color: var(--vlt-color-light-black);
+			}
+
+		}
+
+	}
+
+	.prev,
+	.next {
+
+		.icon {
+			position: relative;
+			left: 0;
+			display: inline-flex;
+			transition: left var(--vlt-transition-duration) var(--vlt-transition-easing);
+
+			svg:first-child {
+				position: absolute;
+			}
+
+		}
+
+		a {
+			display: inline-flex;
+			align-items: center;
+			@include vlt_primary_bold_14;
+
+			span {
+				margin: 0 px2rem(10px);
+			}
+
+			&:hover {
+				color: inherit;
+			}
+
+		}
+
+	}
+
+	.prev {
+
+		.icon {
+
+			svg:first-child {
+				left: -1em;
+			}
+
+		}
+
+		&:hover {
+
+			.icon {
+				left: 1em;
+			}
+
+		}
+
+	}
+
+	.next {
+		text-align: right;
+
+		.icon {
+
+			svg:first-child {
+				left: 1em;
+			}
+
+		}
+
+		&:hover {
+
+			.icon {
+				left: -1em;
+			}
+
+		}
+
+	}
+
+}
+
+/* SECTION: STYLE 2
+-------------------------------------------- */
+
+.vlt-page-navigation--style-2 {
+	overflow: hidden;
+
+	.all {
+		position: relative;
+		z-index: 1;
+
+		&::before {
+			top: -50em;
+			left: 50%;
+			height: 100em;
+			border-left: 1.5px solid var(--vlt-color-black-0p1);
+			z-index: -1;
+			@include pseudo;
+		}
+
+		a {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: px2rem(60px);
+			height: px2rem(60px);
+			color: var(--vlt-color-white);
+			background-color: var(--vlt-color-black);
+			border-radius: calc(var(--vlt-border-radius) * 10);
+			z-index: 1;
+
+			&:hover {
+				background-color: var(--vlt-color-light-black);
+			}
+
+		}
+
+	}
+
+	.prev,
+	.next {
+		padding-top: px2rem(70px);
+		padding-bottom: px2rem(70px);
+
+		span.label {
+			display: block;
+			margin-bottom: px2rem(10px);
+			color: var(--vlt-color-black);
+			@include vlt_display_2;
+		}
+
+		h4 {
+			color: var(--vlt-color-black);
+
+			a {
+				@include vlt_underline_link(currentColor);
+			}
+
+		}
+
+	}
+
+	.prev {
+		padding-right: px2rem(64px);
+		text-align: right;
+
+		@include media-breakpoint-down(md) {
+			padding-right: px2rem(32px);
+		}
+
+	}
+
+	.next {
+		padding-left: px2rem(64px);
+
+		@include media-breakpoint-down(md) {
+			padding-left: px2rem(32px);
+		}
+
+	}
+
+}

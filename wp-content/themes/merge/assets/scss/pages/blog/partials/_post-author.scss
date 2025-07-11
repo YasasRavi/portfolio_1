@@ -1,0 +1,43 @@
+/* PARTIAL: POST AUTHOR
+-------------------------------------------- */
+
+.vlt-post-author {
+	display: flex;
+	align-items: center;
+	color: var(--vlt-color-gray);
+
+	&__avatar {
+		display: inline-flex;
+		padding: 2px;
+		margin-right: px2rem(16px);
+		border: 1.5px solid var(--vlt-color-accent);
+		border-radius: calc(var(--vlt-border-radius) * 10);
+		z-index: 0;
+		flex-shrink: 0;
+
+		img {
+			max-width: px2rem(50px);
+			border-radius: 50%;
+		}
+
+	}
+
+	&__name {
+		display: flex;
+		flex-direction: column;
+		flex-basis: 100%;
+
+		a {
+			@include vlt_primary_medium_18;
+			@include vlt_underline_link_reverse;
+		}
+
+		span:last-of-type {
+			display: block;
+			margin-top: px2rem(5px);
+			@include vlt_display_2;
+		}
+
+	}
+
+}

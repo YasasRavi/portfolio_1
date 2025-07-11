@@ -1,0 +1,38 @@
+/* WIDGET: SEARCH FORM
+-------------------------------------------- */
+
+.vlt-search-form {
+	position: relative;
+	overflow: hidden;
+
+	input[type=text],
+	input[type=search] {
+		height: px2rem(50px);
+		padding-right: px2rem(50px);
+	}
+
+	button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: px2rem(50px);
+		margin: 0;
+		font-size: map-get($scales, "s7");
+		color: var(--vlt-color-black);
+		cursor: pointer;
+		background: none;
+		background-color: var(--vlt-color-accent);
+		border: none;
+		border-radius: calc(var(--vlt-border-radius) * 10);
+
+		&:hover {
+			color: var(--vlt-color-black);
+		}
+
+	}
+
+}

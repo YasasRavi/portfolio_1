@@ -1,0 +1,11 @@
+/* POST: STYLE 2
+-------------------------------------------- */
+
+.vlt-post--style-2 {
+	@extend .vlt-post--style-1;
+
+	.vlt-post-title {
+		@include vlt_secondary_medium_22;
+	}
+
+}

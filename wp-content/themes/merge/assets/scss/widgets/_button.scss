@@ -1,0 +1,397 @@
+/* WIDGET: BUTTON
+-------------------------------------------- */
+
+.vlt-btn {
+	position: relative;
+	display: inline-flex !important;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	text-decoration: none;
+	white-space: nowrap;
+	cursor: pointer;
+	border: none;
+	border-radius: 0;
+	outline: 0;
+	transition: all var(--vlt-transition-duration) var(--vlt-transition-easing);
+	z-index: 1;
+
+	&:disabled,
+	&.disabled {
+		pointer-events: none;
+		cursor: not-allowed;
+	}
+
+	&--block {
+		width: 100%;
+	}
+
+	&--rounded {
+		border-radius: calc(var(--vlt-border-radius) * 10);
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	.vlt-btn__icon.left {
+		margin-right: 1.5em;
+	}
+
+	.vlt-btn__icon.right {
+		margin-left: 1.5em;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+
+}
+
+/* BUTTON EFFECT
+-------------------------------------------- */
+
+.vlt-btn--effect {
+	background: none;
+
+	.vlt-btn__content {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		border-radius: inherit;
+		transition: inherit;
+		transform: translateY(0%) scale(1) rotate(0.001deg);
+		z-index: 1;
+	}
+
+	&:not(.vlt-btn--has-icon) .vlt-btn__content::after {
+		content: '';
+		display: inline-flex;
+		width: px2rem(6px);
+		height: px2rem(6px);
+		margin-left: px2rem(20px);
+		background-color: currentColor;
+		border-radius: 50%;
+		backface-visibility: hidden;
+		flex-shrink: 0;
+	}
+
+	.vlt-btn__fill {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		width: 100%;
+		height: 100%;
+		background-color: transparent;
+		border-radius: inherit;
+		transition: inherit;
+		transform: translateY(0%) scale(1) rotate(0.001deg);
+	}
+
+	.vlt-btn__fill.copy {
+		transform: translateY(100%) scale(0.8) rotate(0.001deg);
+		z-index: 2;
+	}
+
+	.vlt-btn__content.copy {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		border-radius: inherit;
+		transform: translateY(100%) scale(0.8) rotate(0.001deg);
+		z-index: 3;
+	}
+
+	&:hover,
+	&:focus,
+	&.is-active,
+	&.gt-current-lang {
+
+		.vlt-btn__fill {
+			transform: translateY(0%) scale(0.8) rotate(0.001deg);
+		}
+
+		.vlt-btn__content {
+			opacity: .5;
+			transform: translateY(-10%) scale(0.7) rotate(0.001deg);
+		}
+
+		.vlt-btn__fill.copy {
+			transform: translateY(0%) scale(1) rotate(0.001deg);
+		}
+
+		.vlt-btn__content.copy {
+			opacity: 1;
+			transform: translateY(0%) scale(1) rotate(0.001deg);
+		}
+
+	}
+
+}
+
+/* BUTTON PRIMARY
+-------------------------------------------- */
+
+.vlt-btn.vlt-btn--primary {
+
+	&:not(.vlt-btn--effect) {
+		color: var(--vlt-color-black);
+		background-color: var(--vlt-color-accent);
+
+		&:hover,
+		&:focus {
+			color: var(--vlt-color-black);
+			background-image: var(--vlt-linear-gradient);
+		}
+
+	}
+
+	&.vlt-btn--effect {
+
+		.vlt-btn__content {
+			color: var(--vlt-color-black);
+
+			&.copy {
+				color: var(--vlt-color-black);
+			}
+
+		}
+
+		.vlt-btn__fill {
+			background-color: var(--vlt-color-accent);
+
+			&.copy {
+				background-color: none;
+				background-image: var(--vlt-linear-gradient);
+			}
+
+		}
+
+	}
+
+}
+
+/* BUTTON SECONDARY
+-------------------------------------------- */
+
+.vlt-btn.vlt-btn--secondary {
+
+	&:not(.vlt-btn--effect) {
+		color: var(--vlt-color-black);
+		background-image: var(--vlt-linear-gradient);
+
+		&:hover,
+		&:focus {
+			color: var(--vlt-color-white);
+			background-color: var(--vlt-color-black);
+		}
+
+	}
+
+	&.vlt-btn--effect {
+
+		.vlt-btn__content {
+			color: var(--vlt-color-black);
+
+			&.copy {
+				color: var(--vlt-color-black);
+			}
+
+		}
+
+		.vlt-btn__fill {
+			background-image: var(--vlt-linear-gradient);
+
+			&.copy {
+				background-image: var(--vlt-linear-gradient-reverse);
+			}
+
+		}
+
+	}
+
+}
+
+/* BUTTON TERTIARY
+-------------------------------------------- */
+
+.vlt-btn.vlt-btn--tertiary {
+
+	&:not(.vlt-btn--effect) {
+		color: var(--vlt-color-white);
+		background-color: var(--vlt-color-light-black);
+
+		&:hover,
+		&:focus {
+			color: var(--vlt-color-black);
+			background-image: var(--vlt-linear-gradient);
+		}
+
+	}
+
+	&.vlt-btn--effect {
+
+		.vlt-btn__content {
+			color: var(--vlt-color-white);
+
+			&.copy {
+				color: var(--vlt-color-black);
+			}
+
+		}
+
+		.vlt-btn__fill {
+			background-color: var(--vlt-color-light-black);
+			background-image: none;
+
+			&.copy {
+				background-image: var(--vlt-linear-gradient);
+			}
+
+		}
+
+	}
+
+}
+
+/* BUTTON OUTLINE
+-------------------------------------------- */
+
+.vlt-btn.vlt-btn--outline {
+
+	&:not(.vlt-btn--effect) {
+		color: var(--vlt-color-gray);
+		background-color: transparent;
+		box-shadow: inset 0 0 0 1.5px var(--vlt-color-gray) !important;
+
+		&:hover,
+		&:focus {
+			color: var(--vlt-color-black);
+			background-color: var(--vlt-color-accent);
+			box-shadow: none;
+		}
+
+	}
+
+	&.vlt-btn--effect {
+
+		.vlt-btn__content {
+			color: var(--vlt-color-gray);
+
+			&.copy {
+				color: var(--vlt-color-black);
+			}
+
+		}
+
+		.vlt-btn__fill {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 1.5px var(--vlt-color-gray);
+
+			&.copy {
+				background-color: var(--vlt-color-accent);
+				box-shadow: none;
+			}
+
+		}
+
+	}
+
+}
+
+/* BUTTON SIZES
+-------------------------------------------- */
+
+.vlt-btn:not(.vlt-btn--effect),
+.vlt-btn:not(.vlt-btn--effect).vlt-btn--md,
+.vlt-btn.vlt-btn--effect .vlt-btn__content {
+	padding: px2rem(14px) px2rem(20px) px2rem(14px) px2rem(26px);
+}
+
+.vlt-btn.vlt-btn--effect.vlt-btn--has-icon .vlt-btn__content {
+	padding: px2rem(14px) px2rem(26px);
+}
+
+.vlt-btn.vlt-btn--lg:not(.vlt-btn--effect),
+.vlt-btn.vlt-btn--lg.vlt-btn--effect .vlt-btn__content {
+	padding: px2rem(22px) px2rem(50px) px2rem(22px) px2rem(56px);
+}
+
+.vlt-btn.vlt-btn--sm:not(.vlt-btn--effect),
+.vlt-btn.vlt-btn--sm.vlt-btn--effect .vlt-btn__content {
+	padding: px2rem(10px) px2rem(20px) px2rem(10px) px2rem(26px);
+
+	&::after {
+		margin-left: px2rem(14px);
+	}
+
+}
+
+.vlt-btn.vlt-btn--xs {
+	@include vlt_primary_bold_12;
+}
+
+.vlt-btn.vlt-btn--xs:not(.vlt-btn--effect),
+.vlt-btn.vlt-btn--xs.vlt-btn--effect .vlt-btn__content {
+	padding: px2rem(5px) px2rem(8px) px2rem(5px) px2rem(14px);
+
+	&::after {
+		margin-left: px2rem(14px);
+	}
+
+}
+
+/* BUTTON CIRCLE
+-------------------------------------------- */
+
+.vlt-btn-circle {
+	position: relative;
+	display: inline-flex;
+	width: px2rem(120px);
+	height: px2rem(120px);
+	font-size: px2rem(30px);
+	color: var(--vlt-color-black);
+	transition: none;
+	z-index: 1;
+
+	&__fill {
+		position: absolute;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		padding: px2rem(5px);
+		background-color: var(--vlt-color-accent);
+		background-size: cover;
+		border-radius: 100%;
+		z-index: -1;
+
+		svg {
+			width: 100%;
+			height: 100%;
+		}
+
+	}
+
+	&__content {
+		position: absolute;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+	}
+
+	&:hover {
+		color: var(--vlt-color-black);
+	}
+
+}

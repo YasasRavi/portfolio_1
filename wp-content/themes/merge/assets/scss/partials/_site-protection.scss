@@ -1,0 +1,42 @@
+/* PARTIAL: SITE PROTECTION
+-------------------------------------------- */
+
+.vlt-site-protection {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	padding: px2rem(16px);
+	visibility: hidden;
+	user-select: none;
+	background-color: var(--vlt-color-black-0p5);
+	opacity: 0;
+	transition: all var(--vlt-transition-duration) var(--vlt-transition-easing);
+	z-index: z("site-protection");
+	backdrop-filter: grayscale(1) contrast(3) blur(30px);
+
+	> * {
+		color: var(--vlt-color-white);
+		opacity: 0;
+
+		p {
+			margin: 0;
+		}
+
+	}
+
+	&.is-visible {
+		visibility: visible;
+		opacity: 1;
+
+		> * {
+			animation: vlt_blink_in var(--vlt-transition-duration) var(--vlt-transition-duration) var(--vlt-transition-easing) forwards;
+		}
+
+	}
+
+}

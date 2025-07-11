@@ -1,0 +1,2747 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Leedo Helper Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-09 16:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3"
+
+#: includes/helper-functions.php:13
+msgid "Facebook URL"
+msgstr ""
+
+#: includes/helper-functions.php:14
+msgid "Instagram URL"
+msgstr ""
+
+#: includes/helper-functions.php:15
+msgid "Twitter URL"
+msgstr ""
+
+#: includes/helper-functions.php:16
+msgid "Tumblr URL"
+msgstr ""
+
+#: includes/helper-functions.php:17
+msgid "Pinterest URL"
+msgstr ""
+
+#. Author of the plugin
+#: includes/elementor/elementor.php:13 includes/wpbakery/wpbakery.php:28
+#: includes/wpbakery/wpbakery.php:42
+#: includes/wpbakery/wpbakery-templates.php:31
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:230
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:189
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:88
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:114
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:97
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:110
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:140
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:107
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:147
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:94
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:131
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:148
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:166
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:290
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:136
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:216
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:183
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1218
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:141
+#: includes/wpbakery/shortcodes/shortcode_particle.php:132
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:115
+#: includes/wpbakery/shortcodes/shortcode_post_quote_block.php:77
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:100
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:160
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:125
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:117
+#: includes/wpbakery/shortcodes/shortcode_awards_slider.php:64
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:101
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:79
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:220
+#: includes/wpbakery/shortcodes/shortcode_ads_banner.php:84
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:136
+#: includes/wpbakery/shortcodes/shortcode_button.php:209
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:92
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:112
+#: includes/wpbakery/shortcodes/shortcode_instagram_feed.php:98
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:162
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:176
+#: includes/wpbakery/shortcodes/shortcode_faq.php:154
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:106
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:189
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:91
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:136
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:103
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:101
+#: includes/wpbakery/shortcodes/shortcode_alert_message.php:73
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:185
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:185
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:112
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:137
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:101
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:117
+#: includes/wpbakery/shortcodes/shortcode_services.php:258
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:98
+msgid "VLThemes"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:47
+#, php-format
+msgid "Getting started with %1$s v%2$s"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:48
+#, php-format
+msgid ""
+"Thanks for purchasing %1$s. We really appreciate your choice. If you like "
+"our theme and support, please rate it 5 stars. More information can be found "
+"below."
+msgstr ""
+
+#: includes/dashboard/dashboard.php:49
+#, php-format
+msgid "Thank you for choosing %s, Cheers!"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:50
+msgid "Subscribe Us"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:51 includes/dashboard/dashboard.php:56
+msgid "Get Help"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:52
+msgid "Documentation"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:57
+msgid ""
+"If you still have questions after reading the documentation, you can create "
+"a ticket. We will contact you ASAP."
+msgstr ""
+
+#: includes/dashboard/dashboard.php:58
+#, php-format
+msgid ""
+"We love to hear your feedback - if you find any bugs or have suggestions for "
+"improvements please get in touch. Nearly all of the time we follow your "
+"advice and issue a rapid update to %s."
+msgstr ""
+
+#: includes/dashboard/dashboard.php:59
+msgid ""
+"There seems to be a temporary problem retrieving the latest updates for this "
+"theme. You can always view your latest updates on the Themeforest."
+msgstr ""
+
+#: includes/dashboard/dashboard.php:60
+msgid "Requirements"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:61
+msgid "Some Problems"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:62
+msgid "No Problems"
+msgstr ""
+
+#: includes/dashboard/dashboard.php:63
+msgid "More Info"
+msgstr ""
+
+#: includes/wpbakery/wpbakery.php:26
+msgid "Shortcode"
+msgstr ""
+
+#: includes/wpbakery/wpbakery.php:27
+msgid "Copy your shortcode here with all the correct parameters."
+msgstr ""
+
+#: includes/wpbakery/wpbakery.php:34
+msgid "Overflow"
+msgstr ""
+
+#: includes/wpbakery/wpbakery.php:35
+msgid "Select type of overflow for this row."
+msgstr ""
+
+#: includes/wpbakery/wpbakery.php:37 includes/wpbakery/wpbakery-icons.php:84
+#: includes/elementor/blocks/block_animation_block.php:36
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:54
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:138
+msgid "None"
+msgstr ""
+
+#: includes/wpbakery/wpbakery.php:38
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:72
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:165
+#: includes/wpbakery/shortcodes/shortcode_button.php:172
+#: includes/wpbakery/shortcodes/shortcode_button.php:182
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:133
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:143
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:153
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:94
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:105
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:66
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:76
+msgid "Enable"
+msgstr ""
+
+#: includes/wpbakery/wpbakery.php:39
+msgid "Disable"
+msgstr ""
+
+#: includes/wpbakery/wpbakery.php:50
+msgid "Stretch to container (for single post)"
+msgstr ""
+
+#: includes/wpbakery/wpbakery.php:51
+msgid "Stretch to content (for aside menu)"
+msgstr ""
+
+#: includes/wpbakery/wpbakery.php:104
+msgid "Select File"
+msgstr ""
+
+#: includes/wpbakery/wpbakery.php:105
+msgid "Remove File"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-templates.php:37
+msgid "My templates"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-templates.php:53
+msgid "About"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:81
+msgid "Icon library"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:82
+msgid "Select icon library below"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:85
+msgid "Font Awesome"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:86
+msgid "Open Iconic"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:87
+msgid "Typicons"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:88
+msgid "Entypo"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:89
+msgid "Linecons"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:90
+msgid "Elusive"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:91
+msgid "Etline"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:92
+msgid "Iconmoon"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:93
+msgid "Linearicons"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:94
+msgid "Iconsmind"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:95
+msgid "Icofont"
+msgstr ""
+
+#: includes/wpbakery/wpbakery-icons.php:100
+#: includes/wpbakery/wpbakery-icons.php:105
+#: includes/wpbakery/wpbakery-icons.php:115
+#: includes/wpbakery/wpbakery-icons.php:119
+#: includes/wpbakery/wpbakery-icons.php:135
+#: includes/wpbakery/wpbakery-icons.php:151
+#: includes/wpbakery/wpbakery-icons.php:167
+#: includes/wpbakery/wpbakery-icons.php:183
+#: includes/wpbakery/wpbakery-icons.php:199
+#: includes/wpbakery/wpbakery-icons.php:215
+#: includes/wpbakery/wpbakery-icons.php:231
+#: includes/wpbakery/wpbakery-icons.php:247
+#: includes/wpbakery/wpbakery-icons.php:263
+#: includes/wpbakery/wpbakery-icons.php:279
+#: includes/wpbakery/wpbakery-icons.php:295
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:113
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:192
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:90
+#: includes/wpbakery/shortcodes/shortcode_services.php:228
+#: includes/wpbakery/shortcodes/shortcode_services.php:234
+msgid "Icon"
+msgstr ""
+
+#: includes/widgets/instagram.php:13
+msgid "Shows Instagram images."
+msgstr ""
+
+#: includes/widgets/instagram.php:15
+msgid "VLThemes: Instagram"
+msgstr ""
+
+#: includes/widgets/instagram.php:72 includes/widgets/subscribe.php:77
+#: includes/widgets/banner.php:63 includes/widgets/popular-posts.php:80
+#: includes/widgets/trending-posts.php:85 includes/widgets/socials.php:56
+#: includes/widgets/recent-posts.php:79
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/subscribe.php:13
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:107
+msgid "Shows MailChimp subscribe form."
+msgstr ""
+
+#: includes/widgets/subscribe.php:15
+msgid "VLThemes: Subscribe"
+msgstr ""
+
+#: includes/widgets/subscribe.php:50
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:38
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:40
+msgid "Your Email"
+msgstr ""
+
+#: includes/widgets/subscribe.php:51
+msgid "Ok"
+msgstr ""
+
+#: includes/widgets/banner.php:13
+#: includes/wpbakery/shortcodes/shortcode_ads_banner.php:81
+msgid "Shows ADS banner."
+msgstr ""
+
+#: includes/widgets/banner.php:15
+msgid "VLThemes: Banner"
+msgstr ""
+
+#: includes/widgets/popular-posts.php:13
+msgid "Shows popular posts."
+msgstr ""
+
+#: includes/widgets/popular-posts.php:15
+msgid "VLThemes: Popular Posts"
+msgstr ""
+
+#: includes/widgets/trending-posts.php:13
+msgid "Shows trending posts."
+msgstr ""
+
+#: includes/widgets/trending-posts.php:15
+msgid "VLThemes: Trending Posts"
+msgstr ""
+
+#: includes/widgets/socials.php:13
+msgid "Shows social links."
+msgstr ""
+
+#: includes/widgets/socials.php:15
+msgid "VLThemes: Social Links"
+msgstr ""
+
+#: includes/widgets/recent-posts.php:13
+msgid "Shows recent posts."
+msgstr ""
+
+#: includes/widgets/recent-posts.php:15
+msgid "VLThemes: Recent Posts"
+msgstr ""
+
+#: includes/vendors/featured-post/featured-post.php:65
+#: includes/vendors/featured-post/featured-post.php:72
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:163
+msgid "Featured"
+msgstr ""
+
+#: includes/vendors/featured-post/featured-post.php:162
+msgid "If checked, this is marked as featured."
+msgstr ""
+
+#: includes/vendors/featured-post/featured-post.php:163
+msgid "Featured?"
+msgstr ""
+
+#: includes/vendors/instagram/instagram.php:167
+msgid "Something went wrong!"
+msgstr ""
+
+#: includes/vendors/custom-fonts/custom-fonts.php:165
+msgid "Custom Fonts"
+msgstr ""
+
+#: includes/elementor/blocks/block_ads_banner.php:21
+#: includes/wpbakery/shortcodes/shortcode_ads_banner.php:80
+msgid "ADS Banner"
+msgstr ""
+
+#: includes/elementor/blocks/block_ads_banner.php:37
+#: includes/elementor/blocks/block_visual_portfolio.php:64
+#: includes/elementor/blocks/block_alert_message.php:41
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:124
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:109
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:116
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:123
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:129
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:54
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:80
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:58
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:65
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:70
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:81
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:88
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:118
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:56
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:67
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:125
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:66
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:72
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:69
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:83
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:90
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:97
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:91
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:103
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:126
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:83
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:94
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:102
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:113
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:124
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:157
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:168
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:175
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:181
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:187
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:197
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:207
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:217
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:228
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:238
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:249
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:86
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:93
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:114
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:156
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:167
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:174
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:93
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:99
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:106
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:112
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:835
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:884
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:944
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1005
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1048
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1097
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1141
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1196
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:80
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:87
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:93
+#: includes/wpbakery/shortcodes/shortcode_particle.php:74
+#: includes/wpbakery/shortcodes/shortcode_particle.php:82
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:69
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:77
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:85
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:93
+#: includes/wpbakery/shortcodes/shortcode_post_quote_block.php:55
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:58
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:66
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:90
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:100
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:111
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:122
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:80
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:103
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:83
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:95
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:61
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:67
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:57
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:130
+#: includes/wpbakery/shortcodes/shortcode_ads_banner.php:56
+#: includes/wpbakery/shortcodes/shortcode_ads_banner.php:62
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:73
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:80
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:88
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:95
+#: includes/wpbakery/shortcodes/shortcode_button.php:129
+#: includes/wpbakery/shortcodes/shortcode_button.php:135
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:52
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:64
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:51
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:62
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:73
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:84
+#: includes/wpbakery/shortcodes/shortcode_instagram_feed.php:76
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:107
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:118
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:126
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:140
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:85
+#: includes/wpbakery/shortcodes/shortcode_faq.php:90
+#: includes/wpbakery/shortcodes/shortcode_faq.php:101
+#: includes/wpbakery/shortcodes/shortcode_faq.php:126
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:64
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:72
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:88
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:96
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:104
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:115
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:126
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:136
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:59
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:69
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:70
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:78
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:84
+#: includes/wpbakery/shortcodes/shortcode_alert_message.php:51
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:112
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:119
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:125
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:135
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:141
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:97
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:76
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:83
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:90
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:76
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:87
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:98
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:109
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:115
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:49
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:59
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:69
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:79
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:57
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:67
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:77
+#: includes/wpbakery/shortcodes/shortcode_services.php:163
+#: includes/wpbakery/shortcodes/shortcode_services.php:170
+#: includes/wpbakery/shortcodes/shortcode_services.php:177
+#: includes/wpbakery/shortcodes/shortcode_services.php:183
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:56
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:64
+msgid "General"
+msgstr ""
+
+#: includes/elementor/blocks/block_ads_banner.php:44
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:129
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:132
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:140
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:150
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:107
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:123
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:128
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:131
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:139
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:150
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:161
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:846
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:895
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:955
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1016
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1059
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1108
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1152
+#: includes/wpbakery/shortcodes/shortcode_particle.php:71
+#: includes/wpbakery/shortcodes/shortcode_ads_banner.php:53
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:93
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:53
+msgid "Image"
+msgstr ""
+
+#: includes/elementor/blocks/block_ads_banner.php:51
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:128
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:71
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:123
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:261
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:92
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:877
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:920
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:986
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1041
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1084
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1133
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1177
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:92
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:100
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:66
+#: includes/wpbakery/shortcodes/shortcode_ads_banner.php:61
+#: includes/wpbakery/shortcodes/shortcode_button.php:134
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:153
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:83
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:124
+#: includes/wpbakery/shortcodes/shortcode_services.php:182
+msgid "Link"
+msgstr ""
+
+#: includes/elementor/blocks/block_visual_portfolio.php:26
+msgid "Visual Portfolio"
+msgstr ""
+
+#: includes/elementor/blocks/block_visual_portfolio.php:72
+msgid "Select visual portfolio"
+msgstr ""
+
+#: includes/elementor/blocks/block_alert_message.php:21
+#: includes/wpbakery/shortcodes/shortcode_alert_message.php:69
+msgid "Alert Message"
+msgstr ""
+
+#: includes/elementor/blocks/block_alert_message.php:48
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:64
+#: includes/wpbakery/shortcodes/shortcode_post_quote_block.php:53
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:120
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:50
+#: includes/wpbakery/shortcodes/shortcode_alert_message.php:49
+msgid "Text"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:25
+msgid "AOS Animation"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:33
+msgid "Animation Name"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:37
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:55
+msgid "Fade"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:38
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:56
+msgid "Fade Up"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:39
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:57
+msgid "Fade Down"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:40
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:58
+msgid "Fade Left"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:41
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:59
+msgid "Fade Right"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:42
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:60
+msgid "Fade Up Right"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:43
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:61
+msgid "Fade Up Left"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:44
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:62
+msgid "Fade Down Right"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:45
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:63
+msgid "Fade Down Left"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:46
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:64
+msgid "Flip Up"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:47
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:65
+msgid "Flip Down"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:48
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:66
+msgid "Flip Left"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:49
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:67
+msgid "Flip Right"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:50
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:68
+msgid "Slide Up"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:51
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:69
+msgid "Slide Down"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:52
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:70
+msgid "Slide Left"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:53
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:71
+msgid "Slide Right"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:54
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:72
+msgid "Zoom In"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:55
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:73
+msgid "Zoom In Up"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:56
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:74
+msgid "Zoom In Down"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:57
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:75
+msgid "Zoom In Left"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:58
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:76
+msgid "Zoom In Right"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:59
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:77
+msgid "Zoom Out"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:60
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:78
+msgid "Zoom Out Up"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:61
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:79
+msgid "Zoom Out Down"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:62
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:80
+msgid "Zoom Out Left"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:63
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:81
+msgid "Zoom Out Right"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:73
+msgid "Animation Delay"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:88
+msgid "Animation Duration"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:103
+msgid "Animation Offset"
+msgstr ""
+
+#: includes/elementor/blocks/block_animation_block.php:104
+msgid "Offset (in px) from the original trigger point."
+msgstr ""
+
+#: includes/dashboard/widgets/activation.php:20
+msgid "By activating you will unlock premium options."
+msgstr ""
+
+#: includes/dashboard/widgets/activation.php:25
+msgid "Deactivate"
+msgstr ""
+
+#: includes/dashboard/widgets/activation.php:32
+#, php-format
+msgid "Activate %s with Envato"
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:107
+msgid "PHP Version:"
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:120
+#, php-format
+msgid "We recommend upgrade php version to at least %s."
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:130
+msgid "Memory Limit:"
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:140
+#, php-format
+msgid ""
+"For normal usage will be enough 180M, but for importing demo we recommend "
+"setting memory to at least %s."
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:143
+#, php-format
+msgid "Read more: %s"
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:143
+msgid "Increasing memory allocated to PHP."
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:154
+msgid "Max Execution Time:"
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:167
+#, php-format
+msgid "We recommend setting max execution time to at least %s."
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:169
+#, php-format
+msgid "See more: %s"
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:169
+msgid "Increasing max execution to PHP"
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:179
+msgid "Max Input Time:"
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:190
+#: includes/dashboard/widgets/requirements.php:230
+#, php-format
+msgid "We recommend to at least %s."
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:199
+msgid "Post Max Size:"
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:210
+#: includes/dashboard/widgets/requirements.php:250
+#, php-format
+msgid "We recommend to at least %sM."
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:219
+msgid "Max Input Vars:"
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:239
+msgid "Upload Max Filesize:"
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:259
+msgid "Child Theme:"
+msgstr ""
+
+#: includes/dashboard/widgets/requirements.php:267
+msgid ""
+"We recommend use child theme to prevent loosing your customizations after "
+"theme update."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:117
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:151
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:117
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:85
+#: includes/wpbakery/shortcodes/shortcode_faq.php:84
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:82
+msgid "Type"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:119
+msgid "Page"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:120
+msgid "Post"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:121
+msgid "Work"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:137
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:114
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:136
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:853
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:902
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:962
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1023
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1066
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1115
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1159
+#: includes/wpbakery/shortcodes/shortcode_particle.php:79
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:109
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:101
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:61
+msgid "Image Size"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:145
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:131
+msgid "Overlay"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:147
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:142
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:131
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:141
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:66
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:66
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:76
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:105
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:120
+#: includes/wpbakery/shortcodes/shortcode_services.php:190
+msgid "Show"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:155
+msgid "Container"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:157
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:169
+#: includes/wpbakery/shortcodes/shortcode_button.php:159
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:72
+msgid "Medium"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:158
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:170
+#: includes/wpbakery/shortcodes/shortcode_button.php:161
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:73
+msgid "Small"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:161
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:173
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:180
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:190
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:202
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:121
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:76
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:114
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:254
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:256
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:262
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:268
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:135
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:137
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:149
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:156
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:166
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:93
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:141
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:148
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:154
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:146
+#: includes/wpbakery/shortcodes/shortcode_services.php:175
+msgid "Content"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:166
+#: includes/wpbakery/shortcodes/shortcode_button.php:157
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:62
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:69
+msgid "Size"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:168
+#: includes/wpbakery/shortcodes/shortcode_button.php:160
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:71
+msgid "Large"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:178
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:114
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:52
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:70
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:63
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:108
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:54
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:121
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:88
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:173
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:172
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:104
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:860
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:909
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:969
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1030
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1073
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1122
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1166
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:78
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:56
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:109
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:59
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:85
+#: includes/wpbakery/shortcodes/shortcode_button.php:127
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:50
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:57
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:68
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:117
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:81
+#: includes/wpbakery/shortcodes/shortcode_services.php:168
+msgid "Title"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:185
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:95
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:180
+msgid "Subtitle"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:195
+msgid "Date Format"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:207
+msgid "Scroll to ID"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:208
+msgid "Additional"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:213
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:172
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:71
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:97
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:80
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:93
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:123
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:90
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:130
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:77
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:114
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:131
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:149
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:273
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:119
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:197
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:166
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1201
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:124
+#: includes/wpbakery/shortcodes/shortcode_particle.php:115
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:98
+#: includes/wpbakery/shortcodes/shortcode_post_quote_block.php:60
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:83
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:143
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:108
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:100
+#: includes/wpbakery/shortcodes/shortcode_awards_slider.php:47
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:84
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:62
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:203
+#: includes/wpbakery/shortcodes/shortcode_ads_banner.php:67
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:119
+#: includes/wpbakery/shortcodes/shortcode_button.php:190
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:75
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:95
+#: includes/wpbakery/shortcodes/shortcode_instagram_feed.php:81
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:145
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:159
+#: includes/wpbakery/shortcodes/shortcode_faq.php:137
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:89
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:172
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:74
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:119
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:86
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:84
+#: includes/wpbakery/shortcodes/shortcode_alert_message.php:56
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:168
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:167
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:95
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:120
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:84
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:100
+#: includes/wpbakery/shortcodes/shortcode_services.php:239
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:81
+msgid "Extra class"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:214
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:173
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:72
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:98
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:81
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:94
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:124
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:91
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:131
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:78
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:115
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:132
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:150
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:274
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:120
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:198
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:167
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1202
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:125
+#: includes/wpbakery/shortcodes/shortcode_particle.php:116
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:99
+#: includes/wpbakery/shortcodes/shortcode_post_quote_block.php:61
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:84
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:144
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:109
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:101
+#: includes/wpbakery/shortcodes/shortcode_awards_slider.php:48
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:85
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:63
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:204
+#: includes/wpbakery/shortcodes/shortcode_ads_banner.php:68
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:120
+#: includes/wpbakery/shortcodes/shortcode_button.php:191
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:76
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:96
+#: includes/wpbakery/shortcodes/shortcode_instagram_feed.php:82
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:146
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:160
+#: includes/wpbakery/shortcodes/shortcode_faq.php:138
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:90
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:173
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:75
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:120
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:87
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:85
+#: includes/wpbakery/shortcodes/shortcode_alert_message.php:57
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:169
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:168
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:96
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:121
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:85
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:101
+#: includes/wpbakery/shortcodes/shortcode_services.php:240
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:82
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:215
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:174
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:73
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:99
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:82
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:95
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:125
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:92
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:132
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:79
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:116
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:133
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:151
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:275
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:121
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:199
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:168
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1203
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:126
+#: includes/wpbakery/shortcodes/shortcode_particle.php:117
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:100
+#: includes/wpbakery/shortcodes/shortcode_post_quote_block.php:62
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:85
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:145
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:110
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:102
+#: includes/wpbakery/shortcodes/shortcode_awards_slider.php:49
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:86
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:64
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:205
+#: includes/wpbakery/shortcodes/shortcode_ads_banner.php:69
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:121
+#: includes/wpbakery/shortcodes/shortcode_button.php:192
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:77
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:97
+#: includes/wpbakery/shortcodes/shortcode_instagram_feed.php:83
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:147
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:161
+#: includes/wpbakery/shortcodes/shortcode_faq.php:139
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:91
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:174
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:76
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:121
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:88
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:86
+#: includes/wpbakery/shortcodes/shortcode_alert_message.php:58
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:170
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:169
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:97
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:122
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:86
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:102
+#: includes/wpbakery/shortcodes/shortcode_services.php:241
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:83
+msgid "Extras"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:220
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:179
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:78
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:104
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:87
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:100
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:130
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:97
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:137
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:84
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:121
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:138
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:156
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:280
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:126
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:204
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:173
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1208
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:131
+#: includes/wpbakery/shortcodes/shortcode_particle.php:122
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:105
+#: includes/wpbakery/shortcodes/shortcode_post_quote_block.php:67
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:90
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:150
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:115
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:107
+#: includes/wpbakery/shortcodes/shortcode_awards_slider.php:54
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:91
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:69
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:210
+#: includes/wpbakery/shortcodes/shortcode_ads_banner.php:74
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:126
+#: includes/wpbakery/shortcodes/shortcode_button.php:197
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:82
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:102
+#: includes/wpbakery/shortcodes/shortcode_instagram_feed.php:88
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:152
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:166
+#: includes/wpbakery/shortcodes/shortcode_faq.php:144
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:96
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:179
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:81
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:126
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:93
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:91
+#: includes/wpbakery/shortcodes/shortcode_alert_message.php:63
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:175
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:175
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:102
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:127
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:91
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:107
+#: includes/wpbakery/shortcodes/shortcode_services.php:246
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:88
+msgid "CSS"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:221
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:180
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:79
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:105
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:88
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:101
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:131
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:98
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:138
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:85
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:122
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:139
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:157
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:281
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:127
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:205
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:174
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1209
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:132
+#: includes/wpbakery/shortcodes/shortcode_particle.php:123
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:106
+#: includes/wpbakery/shortcodes/shortcode_post_quote_block.php:68
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:91
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:151
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:116
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:108
+#: includes/wpbakery/shortcodes/shortcode_awards_slider.php:55
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:92
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:70
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:211
+#: includes/wpbakery/shortcodes/shortcode_ads_banner.php:75
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:127
+#: includes/wpbakery/shortcodes/shortcode_button.php:198
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:83
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:103
+#: includes/wpbakery/shortcodes/shortcode_instagram_feed.php:89
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:153
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:167
+#: includes/wpbakery/shortcodes/shortcode_faq.php:145
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:97
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:180
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:82
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:127
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:94
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:92
+#: includes/wpbakery/shortcodes/shortcode_alert_message.php:64
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:176
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:176
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:103
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:128
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:92
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:108
+#: includes/wpbakery/shortcodes/shortcode_services.php:247
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:89
+msgid "Design"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:226
+msgid "Page Title Hero"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_hero.php:227
+msgid "Shows hero title with title and metas."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:100
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:74
+#: includes/wpbakery/shortcodes/shortcode_services.php:154
+msgid "Heading"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:102
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:78
+#: includes/wpbakery/shortcodes/shortcode_services.php:159
+msgid "Heading 3"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:103
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:77
+#: includes/wpbakery/shortcodes/shortcode_services.php:157
+msgid "Heading 1"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:104
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:76
+#: includes/wpbakery/shortcodes/shortcode_services.php:158
+msgid "Heading 2"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:105
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:79
+#: includes/wpbakery/shortcodes/shortcode_services.php:156
+msgid "Heading 4"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:106
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:80
+#: includes/wpbakery/shortcodes/shortcode_services.php:160
+msgid "Heading 5"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:107
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:81
+#: includes/wpbakery/shortcodes/shortcode_services.php:161
+msgid "Heading 6"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:122
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:77
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:115
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:65
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:89
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:96
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:255
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:110
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:861
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:872
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:910
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:970
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:976
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1031
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1074
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1123
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1167
+#: includes/wpbakery/shortcodes/shortcode_post_quote_block.php:54
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:121
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:136
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:86
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:94
+#: includes/wpbakery/shortcodes/shortcode_faq.php:123
+#: includes/wpbakery/shortcodes/shortcode_alert_message.php:50
+#: includes/wpbakery/shortcodes/shortcode_services.php:176
+msgid "HTML tags available."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:134
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:997
+msgid "Zigzag Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:135
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:145
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:151
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:161
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:167
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:66
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:86
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:92
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:75
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:64
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:73
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:79
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:85
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:103
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:109
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:83
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:149
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:180
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:186
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:824
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:113
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:119
+#: includes/wpbakery/shortcodes/shortcode_particle.php:110
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:72
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:78
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:138
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:74
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:79
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:124
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:176
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:182
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:188
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:198
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:66
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:101
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:108
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:114
+#: includes/wpbakery/shortcodes/shortcode_button.php:140
+#: includes/wpbakery/shortcodes/shortcode_button.php:152
+#: includes/wpbakery/shortcodes/shortcode_button.php:165
+#: includes/wpbakery/shortcodes/shortcode_button.php:175
+#: includes/wpbakery/shortcodes/shortcode_button.php:185
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:70
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:90
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:80
+#: includes/wpbakery/shortcodes/shortcode_faq.php:132
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:58
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:78
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:84
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:94
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:104
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:114
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:81
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:151
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:157
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:163
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:91
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:150
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:161
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:83
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:89
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:95
+#: includes/wpbakery/shortcodes/shortcode_services.php:193
+#: includes/wpbakery/shortcodes/shortcode_services.php:199
+#: includes/wpbakery/shortcodes/shortcode_services.php:209
+#: includes/wpbakery/shortcodes/shortcode_services.php:215
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:76
+msgid "Style"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:140
+#: includes/wpbakery/shortcodes/shortcode_services.php:188
+msgid "Underline"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:150
+#: includes/wpbakery/shortcodes/shortcode_services.php:198
+msgid "Underline Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:160
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:85
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:72
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:102
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:185
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:112
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:106
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:69
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:83
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:156
+#: includes/wpbakery/shortcodes/shortcode_services.php:208
+msgid "Title Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:166
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:91
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:181
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:113
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:89
+#: includes/wpbakery/shortcodes/shortcode_services.php:214
+msgid "Text Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:185
+msgid "Services Box"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services_box.php:186
+msgid "Shows info box with text."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:59
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:62
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:96
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:131
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:72
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:50
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:57
+msgid "Alignment"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:61
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:64
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:98
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:133
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:74
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:52
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:59
+msgid "Center"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:62
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:65
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:99
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:134
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:75
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:53
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:60
+#: includes/wpbakery/shortcodes/shortcode_services.php:225
+msgid "Left"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:63
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:66
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:100
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:135
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:76
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:54
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:61
+#: includes/wpbakery/shortcodes/shortcode_services.php:226
+msgid "Right"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:84
+msgid "Social Share"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_social_share.php:85
+msgid "Shows social share buttons with title."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:64
+msgid "Row Info"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:110
+msgid "Contact Info"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_contact_info.php:111
+msgid "Shows contact information."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:42
+msgid "You did not install Contact Form 7 (By Takayuki Miyoshi) plugin."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:56
+msgid "ID"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:70
+msgid "Dark Alert"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:93
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_contact_form_7.php:94
+msgid "Shows Contact Form 7."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:42
+msgid "Subscribe"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:66
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:85
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:151
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:826
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:76
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:126
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:68
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:82
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:60
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:93
+msgid "Style 1"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:67
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:86
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:152
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:827
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:77
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:127
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:69
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:83
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:61
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:94
+msgid "Style 2"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:75
+msgid "Brightness"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:77
+msgid "Dark"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:78
+msgid "Light"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:86
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:63
+msgid "URL"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_subscribe_form.php:106
+msgid "Subscribe Form"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:91
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:101
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:97
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:840
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:889
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:949
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1010
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1053
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1102
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1146
+msgid "Items"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:97
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:109
+msgid "Date"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:103
+msgid "Place of Work/Study"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:136
+msgid "Timeline"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_timeline.php:137
+msgid "Timeline of old memories and events."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:61
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:78
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:51
+msgid "Value"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:78
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:88
+msgid "Bar Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:84
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:94
+msgid "Track Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:103
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_progress_bar.php:104
+msgid "Shows animated progress bar."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:143
+msgid "Projects Preview"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_projects_preview.php:144
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1215
+msgid "Showcase your projects."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:90
+msgid "Post Link Block"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_post_link_block.php:91
+msgid "Shows post colored block with link."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:108
+msgid "Subtitle Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:127
+msgid "Section Title"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_section_title.php:128
+msgid "Shows title for a section."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:87
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:153
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:828
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:128
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:70
+msgid "Style 3"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:88
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:829
+msgid "Style 4"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:107
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:144
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:84
+msgid "Social Icons"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_social_icons.php:145
+msgid "Shows social icon links."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:81
+msgid "Select Images"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:88
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:98
+msgid "Images Type"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:90
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:119
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:100
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:84
+msgid "Simple"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:91
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:120
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:87
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:101
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:85
+msgid "Custom"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:99
+msgid "Images Size"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:107
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:144
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:117
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:109
+msgid "Height on Desktop"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:108
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:145
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:118
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:110
+msgid "Window width >= 768"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:118
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:155
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:128
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:120
+msgid "Height on Tablet"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:119
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:156
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:129
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:121
+msgid "Window width <= 767"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:129
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:64
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:103
+msgid "Dots"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:134
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:144
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:69
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:79
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:112
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:127
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:139
+msgid "Settings"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:139
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:74
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:118
+msgid "Navigation"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:162
+msgid "Image Slider"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_image_slider.php:163
+msgid "Shows carousel with simple image."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:153
+msgid "Fixed Price"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:154
+msgid "Monthly / Annually"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:186
+msgid "Currency Symbol"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:192
+msgid "Amount"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:202
+msgid "Period"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:212
+msgid "Amount Monthly"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:222
+msgid "Period Monthly"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:233
+msgid "Amount Annually"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:243
+msgid "Period Annually"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:267
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:925
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:991
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1089
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1182
+msgid "Link Text"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:286
+msgid "Pricing Table"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_table.php:287
+msgid "Shows your pricing tables."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:81
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:101
+msgid "Columns"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:83
+msgid "One Column"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:84
+msgid "Two Columns"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:91
+msgid "Year"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:103
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:95
+msgid "Source"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:109
+msgid "Award"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:132
+msgid "Awards Group"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_awards_group.php:133
+msgid "Shows group with awards."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:161
+msgid "Final Value"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:179
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:100
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:77
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:82
+msgid "Value Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:191
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:71
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:171
+#: includes/wpbakery/shortcodes/shortcode_services.php:233
+msgid "Icon Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:212
+msgid "Counter Up"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_counter_up.php:213
+msgid "Shows milestones, achievements, etc."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:98
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:931
+#: includes/wpbakery/shortcodes/shortcode_faq.php:111
+msgid "Number"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:111
+msgid "Badge"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:179
+msgid "Demo Item"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_demo_item.php:180
+msgid "Showcase your demos."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:830
+msgid "Style 5"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:831
+msgid "Style 6"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:832
+msgid "Style 7"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:866
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:915
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:981
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1036
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1079
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1128
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1172
+msgid "Category"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:871
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:975
+msgid "Description"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:936
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1188
+msgid "Section Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_projects_showcase.php:1214
+msgid "Projects Showcase"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:85
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:88
+msgid "Artist"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:98
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:101
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:107
+msgid "Cover"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:106
+msgid "Music Plate"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:118
+msgid "Artist Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:137
+msgid "Artist Album"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_artist_album.php:138
+msgid "Shows artist album with cover."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_particle.php:87
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:58
+msgid "Parallax Value (Axis Y)"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_particle.php:88
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:59
+msgid ""
+"Element will be parallaxed on 250 pixels from the screen center by Y axis "
+"and on -100 pixels from the screen center by X axis."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_particle.php:93
+#: includes/wpbakery/shortcodes/shortcode_particle.php:104
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:64
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:75
+msgid "Parallax"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_particle.php:98
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:69
+msgid "Parallax Value (Axis X)"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_particle.php:99
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:70
+msgid ""
+"Element will be parallaxed on -100 pixels from the screen center by X axis."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_particle.php:109
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:80
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:114
+msgid "CSS Style"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_particle.php:128
+msgid "Particle"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_particle.php:129
+msgid "Shows image or text with parallax effect."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:67
+msgid "Desktop"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:74
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:82
+msgid "Tabs"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:75
+msgid "Window width <= 992px"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:83
+msgid "Window width <= 768px"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:90
+msgid "Mobile"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:91
+msgid "Window width <= 576px"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:111
+msgid "Spacer / Gap"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_spacer.php:112
+msgid "Adjust space between components."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_post_quote_block.php:73
+msgid "Post Quote Block"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_post_quote_block.php:74
+msgid "Shows post colored block with quote."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:64
+msgid "YouTube/Vimeo"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:77
+msgid "Background Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:96
+msgid "Video Link"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_video_link.php:97
+msgid "Shows YouTube/Vimeo play button."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:57
+msgid "Categories:"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:64
+msgid "Tags:"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:88
+msgid "Default"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:97
+msgid "Tags"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:98
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:123
+msgid "Categories"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:156
+msgid "Work Meta"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_work_meta.php:157
+msgid "Shows project metas with title and description."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:121
+msgid "Fixed Social Links"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_fixed_social_links.php:122
+msgid "Shows fixed social links."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:51
+msgid "Animation"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:88
+msgid "Delay"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:89
+msgid "Delay animation (in ms)"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:113
+msgid "Animation Block"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_animation_block.php:114
+msgid "Apply animations everywhere."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_awards_slider.php:60
+msgid "Awards Slider"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_awards_slider.php:61
+msgid "Shows carousel with awards."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:97
+msgid "Simple Link"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_simple_link.php:98
+msgid "Shows simple link with arrow."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:33
+msgid "Monthly"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:38
+msgid "Annually"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:75
+msgid "Pricing Toggle"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_pricing_toggle.php:76
+msgid "Toggle your pricing tables."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:142
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:90
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:93
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:104
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:112
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:123
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:134
+msgid "Avatar"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:154
+msgid "Author"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:161
+msgid "Origin"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:187
+msgid "Author Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:193
+msgid "Origin Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:216
+msgid "Testimonial Item"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_testimonial_item.php:217
+msgid "Shows quote text and author."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:132
+msgid "Process Step"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_process_step.php:133
+msgid "Shows your process steps."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:142
+msgid "Primary"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:143
+msgid "Secondary"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:144
+msgid "Third"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:145
+msgid "Fourth"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:146
+msgid "Fifth"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:147
+msgid "Sixth"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:148
+msgid "Seventh"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:149
+msgid "Eighth"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:162
+msgid "Extra Small"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:170
+msgid "Hover Effect"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:180
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:103
+msgid "Fullwidth"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:205
+msgid "Button"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_button.php:206
+msgid "Shows customizable button."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:88
+msgid "Large Heading"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_large_heading.php:89
+msgid "Shows large heading for a page."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:56
+msgid "Compressor"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:67
+msgid "Min Size"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:78
+msgid "Max Size"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:108
+msgid "Fit Text"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_fit_text.php:109
+msgid "Makes font-sizes flexible."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_instagram_feed.php:71
+msgid "Max Photos"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_instagram_feed.php:94
+msgid "Instagram Feed"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_instagram_feed.php:95
+msgid "Shows recent posts from instagram."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:112
+msgid "Maximum Products"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:131
+msgid "Type Pagination"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:134
+msgid "Hide"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:135
+msgid "Numeric"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:136
+msgid "Paged"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:137
+msgid "Load More"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:158
+msgid "Woo Products"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_woo_products.php:159
+msgid "Shows WooCommerce products."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:139
+msgid "Name"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:146
+msgid "Function"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:172
+msgid "Team Member"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_team_member.php:173
+msgid "Shows team mamber name and function."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_faq.php:86
+msgid "Accordion"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_faq.php:87
+msgid "Toggle"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_faq.php:95
+msgid "Active Index"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_faq.php:105
+msgid "Row"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_faq.php:116
+msgid "Question"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_faq.php:122
+msgid "Answer"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_faq.php:131
+msgid "Question Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_faq.php:150
+msgid "FAQ"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_faq.php:151
+msgid "Shows frequently asked questions."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:69
+msgid "Final Date"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:70
+msgid ""
+"The target date that you are seeking to countdown (For example: 2018/12/12)."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:102
+msgid "Countdown"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_countdown.php:103
+msgid "Shows countdown timer."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:141
+msgid "Caption"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:151
+msgid "Gallery"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:156
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:167
+msgid "Fancybox"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:161
+msgid "Gallery ID"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:185
+msgid "Simple Image"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_simple_image.php:186
+msgid "Shows simple image."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:64
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:87
+msgid "Page Title"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title.php:88
+msgid "Shows page title with subtitle."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:75
+msgid "Logo"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:89
+msgid "Opacity"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:99
+msgid "Height Parent"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:109
+msgid "Height Child"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:132
+msgid "Partner Logo"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_partner_logo.php:133
+msgid "Shows your partner logo with link."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:99
+msgid "Parallax Element"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_parallax_element.php:100
+msgid "Shows element with parallax effect."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:97
+msgid "Video Slider"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_video_slider.php:98
+msgid "Shows carousel with video."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_alert_message.php:70
+msgid "Shows important message."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:86
+msgid "Tickets"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:88
+msgid "Sold Out!"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:110
+msgid "For example 25/Mon/Nov"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:130
+msgid "Availability"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:132
+msgid "Available"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:140
+msgid "Purchase Link"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:150
+msgid "Date Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:162
+msgid "Action Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:181
+msgid "Event Item"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_event_item.php:182
+msgid "Shows event item."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:133
+msgid "Autoplay Speed (in ms)"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:145
+msgid "Dots Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:156
+msgid "Navigation Color"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:181
+msgid "Testimonial Slider"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_testimonial_slider.php:182
+msgid "Shows carousel with testimonials."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:74
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:47
+msgid "Audio"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:108
+msgid "Audio Player"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_audio_player.php:109
+msgid "Shows audio player."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:69
+msgid "Direction"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:71
+msgid "Normal"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:72
+msgid "Alternate"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:73
+msgid "Reverse"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:81
+msgid "Duration (in ms)"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:92
+msgid "Copied Element"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:133
+msgid "Marquee Element"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_marquee_element.php:134
+msgid "Shows image or text with marquee effect."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:54
+msgid "Volume"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:64
+msgid "Loop"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:74
+msgid "Autoplay"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:97
+msgid "Fixed Audio Link"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_fixed_audio_link.php:98
+msgid "Shows fixed audio link."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:72
+msgid "Thickness"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:113
+msgid "Progress Bar Circle"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_progress_bar_circle.php:114
+msgid "Shows animated circle progress bar."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services.php:220
+msgid "Position"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services.php:222
+msgid "Top Center"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services.php:223
+msgid "Top Left"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services.php:224
+msgid "Top Right"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services.php:254
+msgid "Services"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_services.php:255
+msgid "Shows info box with icon."
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:94
+msgid "Page Title Empty"
+msgstr ""
+
+#: includes/wpbakery/shortcodes/shortcode_page_title_empty.php:95
+msgid "Shows empty page title without text."
+msgstr ""
+
+#. Name of the plugin
+msgid "Leedo Helper Plugin"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Leedo Helper Plugin expands the functionality of the theme. Adds new icons, "
+"shortcodes and much more."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://vlthemes.me"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://themeforest.net/user/vlthemes"
+msgstr ""

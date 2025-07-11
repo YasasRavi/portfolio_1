@@ -1,0 +1,21 @@
+/* WORK: STYLE 1
+-------------------------------------------- */
+
+.vp-portfolio__items-style-merge_work_style_1 {
+
+	.vp-portfolio__item a {
+		outline: none;
+		box-shadow: none;
+	}
+
+	// Transitions
+	.vp-portfolio__item-img {
+		overflow: hidden;
+		border-radius: var(--vp-items-style-merge_work_style_1--image__border-radius);
+
+		// fix for safari border-radius.
+		// https://github.com/nk-crew/visual-portfolio/issues/150
+		z-index: 0;
+	}
+
+}

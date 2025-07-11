@@ -1,0 +1,139 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/portfolio
+Data file = C:\xampp\htdocs\portfolio/wp-content/themes/merge/inc/demo/demo-content.xml
+Widget file = C:\xampp\htdocs\portfolio/wp-content/themes/merge/inc/demo/widgets.wie
+Customizer file = C:\xampp\htdocs\portfolio/wp-content/themes/merge/inc/demo/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Imported
+VLThemes: Popular Posts - Popular Posts - Imported
+Categories - Categories - Imported
+Tag Cloud - No Title - Imported
+Text - Instafeed - Imported
+VLThemes: Social Links - Socials - Imported
+
+Offcanvas Sidebar : 
+
+VLThemes: About - No Title - Imported
+Custom HTML - No Title - Imported
+Text - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

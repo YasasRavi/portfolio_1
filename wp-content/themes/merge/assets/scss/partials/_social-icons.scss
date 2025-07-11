@@ -1,0 +1,100 @@
+/* PARTIAL: SOCIAL ICONS
+-------------------------------------------- */
+
+.vlt-social-icon {
+	display: inline-flex;
+	backface-visibility: hidden;
+}
+
+/* SECTION: STYLE 1 (underline text)
+-------------------------------------------- */
+
+.vlt-social-icon--style-1 {
+	color: var(--vlt-color-white-0p6);
+	@include vlt_underline_link;
+	@include vlt_display_1;
+
+	& + & {
+		margin-left: px2rem(20px);
+	}
+
+}
+
+/* SECTION: STYLE 2 (icon)
+-------------------------------------------- */
+
+.vlt-social-icon--style-2 {
+	position: relative;
+	display: inline-flex;
+	font-size: map-get($scales, "s7");
+	color: var(--vlt-color-black);
+
+	@each $name,
+	$color in $social-colors {
+		&.#{$name}:hover {
+			color: $color;
+		}
+	}
+
+	&::before {
+		content: '';
+		display: block;
+		width: px2rem(50px);
+		height: px2rem(50px);
+		background-color: var(--vlt-color-accent);
+		border-radius: calc(var(--vlt-border-radius) * 10);
+		transition: transform var(--vlt-transition-duration) var(--vlt-transition-easing);
+		transform: scale(1);
+	}
+
+	i {
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		transition: transform var(--vlt-transition-duration) var(--vlt-transition-easing);
+		z-index: 2;
+	}
+
+	& + & {
+		margin-left: px2rem(8px);
+	}
+
+	&:hover {
+		color: var(--vlt-color-shade-0);
+
+		&::before {
+			transform: scale(0);
+		}
+
+		i {
+			transform: scale(1.5);
+		}
+
+	}
+
+}
+
+/* SECTION: STYLE 3 (icon)
+-------------------------------------------- */
+
+.vlt-social-icon--style-3 {
+	justify-content: center;
+	width: 1.1em;
+	font-size: map-get($scales, "s7");
+	color: currentColor;
+	backface-visibility: hidden;
+	will-change: transform;
+
+	&:hover {
+		color: var(--vlt-color-accent);
+		transform: scale(1.1);
+	}
+
+	& + & {
+		margin-left: px2rem(8px);
+	}
+
+}

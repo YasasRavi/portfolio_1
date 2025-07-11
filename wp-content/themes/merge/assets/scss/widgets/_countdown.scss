@@ -1,0 +1,55 @@
+/* WIDGET: COUNTODWN
+-------------------------------------------- */
+
+.vlt-countdown {
+
+	&--block {
+		display: grid;
+
+		.digits,
+		.label {
+			display: block;
+		}
+
+	}
+
+	&--inline {
+		display: inline-flex;
+		white-space: nowrap;
+
+		.digits,
+		.label {
+			display: inline-flex;
+		}
+
+		.digits {
+
+			@include media-breakpoint-up(md) {
+				margin-right: px2rem(16px);
+			}
+
+			@include media-breakpoint-down(md) {
+				display: flex;
+			}
+
+		}
+
+	}
+
+	&__item {
+		text-align: center;
+
+		.digits {
+			color: var(--vlt-color-accent);
+			white-space: nowrap;
+			@include vlt_secondary_medium_62;
+		}
+
+		.label {
+			color: var(--vlt-color-white);
+			@include vlt_primary_medium_20;
+		}
+
+	}
+
+}

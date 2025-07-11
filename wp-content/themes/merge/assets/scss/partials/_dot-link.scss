@@ -1,0 +1,57 @@
+/* PARTIAL: DOT LINK
+-------------------------------------------- */
+
+.vlt-dot-link {
+	display: inline-flex;
+	line-height: 1;
+	color: var(--vlt-color-white);
+
+	&__inner {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: px2rem(26px);
+		height: px2rem(26px);
+
+		svg {
+			height: 1em;
+			transition: all var(--vlt-transition-duration) var(--vlt-transition-easing);
+		}
+
+		span {
+			position: absolute;
+			top: calc(50% - px2rem(4px));
+			left: calc(50% - px2rem(4px));
+			width: px2rem(8px);
+			height: px2rem(8px);
+			background-color: var(--vlt-color-accent);
+			border-radius: 50%;
+			opacity: 0;
+			transition: all var(--vlt-transition-duration) var(--vlt-transition-easing);
+			transform: scale(0);
+		}
+
+	}
+
+	&:hover {
+		color: currentColor;
+
+		.vlt-dot-link__inner {
+
+			svg {
+				opacity: 0;
+				transform: scale(0);
+			}
+
+			span {
+				opacity: 1;
+				transition-delay: calc(var(--vlt-transition-duration) / 2);
+				transform: scale(1);
+			}
+
+		}
+
+	}
+
+}

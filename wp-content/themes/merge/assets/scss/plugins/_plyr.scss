@@ -1,0 +1,10 @@
+/* PLUGIN: PLYR
+-------------------------------------------- */
+
+.plyr--full-ui.plyr--video.plyr--stopped .plyr__controls {
+	display: none;
+}
+
+.plyr--full-ui.plyr--video .plyr__control--overlaid {
+	display: none;
+}

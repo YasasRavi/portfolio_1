@@ -1,0 +1,100 @@
+/* HEADER: OFFCANVAS MENU
+-------------------------------------------- */
+
+.vlt-offcanvas-menu {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	max-width: px2rem(490px);
+	padding: px2rem(60px) calc(px2rem(70px) + px2rem(40px)) px2rem(60px) px2rem(70px);
+	overflow: hidden;
+	visibility: hidden;
+	background-color: var(--vlt-color-black);
+	transform: translate3d(-100%, 0, 0);
+	backface-visibility: hidden;
+	z-index: z("slide-menu");
+	@include vlt_admin_sticky_fix_default;
+
+	&.vlt-offcanvas-menu--right {
+		right: 0;
+		left: auto;
+		padding: px2rem(60px) px2rem(70px) px2rem(60px) calc(px2rem(70px) + px2rem(40px));
+		transform: translate3d(100%, 0, 0);
+
+		.vlt-offcanvas-menu__marqueue {
+			right: auto;
+			left: 0;
+			transform: rotate(-90deg) translateX(-100%);
+			transform-origin: top left;
+		}
+
+	}
+
+	.vlt-offcanvas-menu__marqueue {
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: flex;
+		align-items: center;
+		width: 100vh;
+		height: px2rem(40px);
+		color: var(--vlt-color-black);
+		background-color: var(--vlt-color-accent);
+		transform: rotate(-90deg) translateY(-100%);
+		transform-origin: top right;
+	}
+
+	&__subscribe {
+		margin-bottom: px2rem(60px);
+	}
+
+	&__navigation {
+		@extend %vlt_navigation;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+
+	}
+
+	&__locales {
+		margin-top: px2rem(50px);
+
+		span.vlt-display-2 {
+			display: block;
+			margin-bottom: px2rem(20px);
+			color: var(--vlt-color-gray);
+		}
+
+		nav {
+			display: flex;
+
+			.vlt-btn {
+
+				&:not(.vlt-btn--effect),
+				&.vlt-btn--effect .vlt-btn__content {
+					padding: px2rem(5px) px2rem(14px);
+				}
+
+				.vlt-btn__content::after {
+					display: none !important;
+				}
+
+				&.gt-current-lang {
+					pointer-events: none;
+				}
+
+			}
+
+			.vlt-btn + .vlt-btn {
+				margin-left: px2rem(8px);
+			}
+
+		}
+
+	}
+
+}

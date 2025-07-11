@@ -1,0 +1,37 @@
+/* WIDGET: RSS
+-------------------------------------------- */
+
+.vlt-widget.widget_rss {
+
+	.vlt-widget__title {
+
+		img {
+			margin-right: px2rem(6px);
+			filter: grayscale(100%);
+		}
+
+	}
+
+	li {
+
+		.rss-date {
+			display: block;
+			margin: px2rem(15px) 0;
+			@include vlt_display_2;
+		}
+
+		.rssSummary {
+			@include vlt_primary_regular_14;
+		}
+
+		cite {
+			margin: px2rem(15px) 0 0;
+		}
+
+	}
+
+	li + li {
+		margin-top: px2rem(30px);
+	}
+
+}

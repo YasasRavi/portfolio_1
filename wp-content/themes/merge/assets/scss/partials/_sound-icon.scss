@@ -1,0 +1,53 @@
+/* PARTIAL: SOUND ICON
+-------------------------------------------- */
+
+.vlt-sound-wave {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: px2rem(25px);
+	height: px2rem(25px);
+
+	.bar {
+		display: block;
+		width: 1.5px;
+		height: px2rem(25px);
+		background-color: var(--vlt-color-white);
+		border-radius: var(--vlt-border-radius);
+		transition: height 1s linear;
+		animation: vlt_sound 0ms -780ms linear infinite alternate;
+
+		&:nth-child(1) {
+			height: px2rem(2px);
+			animation-duration: 580ms;
+		}
+
+		&:nth-child(2) {
+			height: px2rem(4px);
+			animation-duration: 600ms;
+		}
+
+		&:nth-child(3) {
+			height: px2rem(6px);
+			animation-duration: 620ms;
+		}
+
+		&:nth-child(4) {
+			height: px2rem(8px);
+			animation-duration: 640ms;
+		}
+
+		&:nth-child(5) {
+			height: px2rem(10px);
+			animation-duration: 660ms;
+		}
+
+	}
+
+}
+
+.muted .vlt-sound-wave .bar {
+	height: px2rem(2px);
+	animation-iteration-count: 1;
+	animation-fill-mode: backwards;
+}

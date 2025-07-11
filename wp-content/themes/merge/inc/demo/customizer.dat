@@ -1,0 +1,31 @@
+a:4:{s:8:"template";s:5:"merge";s:4:"mods";a:24:{i:0;b:0;s:18:"nav_menu_locations";a:2:{s:12:"primary-menu";i:2;s:12:"onepage-menu";i:9;}s:18:"custom_css_post_id";i:143;s:9:"preloader";s:6:"enable";s:13:"custom_cursor";s:6:"enable";s:16:"background_audio";s:74:"https://wp.vlthemes.me/merge/wp-content/uploads/merge-background-audio.mp3";s:15:"site_protection";s:4:"show";s:15:"custom_sidebars";a:1:{i:0;a:2:{s:13:"sidebar_title";s:0:"";s:19:"sidebar_description";s:0:"";}}s:15:"header_contacts";a:3:{i:0;a:2:{s:12:"contact_text";s:15:"merge@gmail.com";s:11:"contact_url";s:22:"mailto:merge@gmail.com";}i:1;a:2:{s:12:"contact_text";s:18:"+7 (921) 125-14-16";s:11:"contact_url";s:16:"tel:+79211251416";}i:2;a:2:{s:12:"contact_text";s:23:"Available for freelance";s:11:"contact_url";s:0:"";}}s:18:"header_social_list";a:3:{i:0;a:2:{s:11:"social_icon";s:16:"socicon-facebook";s:10:"social_url";s:1:"#";}i:1;a:2:{s:11:"social_icon";s:15:"socicon-twitter";s:10:"social_url";s:1:"#";}i:2;a:2:{s:11:"social_icon";s:16:"socicon-dribbble";s:10:"social_url";s:1:"#";}}s:23:"site_protection_content";s:46:"<p>© Copyright 2024. Powered by VLThemes.</p>";s:16:"custom_scrollbar";s:6:"enable";s:11:"header_logo";i:21;s:17:"menu_toggle_sound";s:6:"enable";s:16:"open_click_sound";s:56:"https://wp.vlthemes.me/merge/wp-content/uploads/open.mp3";s:17:"close_click_sound";s:57:"https://wp.vlthemes.me/merge/wp-content/uploads/close.mp3";s:22:"offcanvas_menu_locales";s:4:"show";s:24:"offcanvas_menu_subscribe";s:61:"[contact-form-7 id="f063766" title="VLThemes Subscribe Form"]";s:11:"footer_show";s:4:"show";s:15:"navigation_type";s:3:"bar";s:12:"about_author";s:4:"show";s:10:"post_views";s:4:"show";s:15:"show_share_post";s:4:"show";s:15:"also_like_posts";s:4:"show";}s:7:"options";a:2:{s:9:"site_icon";s:2:"46";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:527:".vlt-custom--4124 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 45vw;
+    height: 100%;
+    background-position: top left;
+    background-size: cover;
+}
+
+@media (max-width: 991px) {
+    .vlt-custom--4124 {
+        right: 0;
+        width: 40vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .vlt-custom--4124 {
+        right: -50vw;
+        width: 100vw;
+    }
+}
+
+.vlt-custom--1451 {
+	--width: 40vw;
+	right: 5vw;
+	top: calc(50vh - calc(var(--width) / 2));
+	width: var(--width) !important;
+	height: var(--width) !important;
+}";}

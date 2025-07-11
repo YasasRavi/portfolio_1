@@ -1,0 +1,93 @@
+/* WIDGET: CONTACT FORM 7
+-------------------------------------------- */
+
+.wpcf7 {
+
+	.screen-reader-response {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(1px, 1px, 1px, 1px);
+		word-wrap: normal !important;
+		border: 0;
+		clip-path: inset(50%);
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+
+	br {
+		display: none;
+	}
+
+	.wpcf7-form-control-wrap {
+		display: block;
+	}
+
+	.wpcf7-list-item {
+		margin: 0;
+	}
+
+	.wpcf7-not-valid-tip {
+		padding: 0;
+		margin: 0;
+	}
+
+	.wpcf7-not-valid-tip {
+		margin: px2rem(10px) 0 0;
+		color: var(--bs-danger);
+		@include vlt_display_2;
+	}
+
+	form.init .wpcf7-response-output,
+	form.resetting .wpcf7-response-output,
+	form.submitting .wpcf7-response-output {
+		display: none;
+	}
+
+	.wpcf7-response-output {
+		margin: px2rem(30px) 0 0 !important;
+		@extend .vlt-alert-message;
+	}
+
+	.wpcf7-spinner {
+		display: none;
+	}
+
+	form.submitting .wpcf7-spinner {
+		visibility: visible;
+	}
+
+	div#mfcf7_zl_multifilecontainer p {
+		margin-bottom: px2rem(16px);
+	}
+
+	a.mfcf7_zl_delete_file {
+		margin-left: px2rem(20px);
+		color: var(--bs-danger);
+		text-decoration: none;
+
+		span.delete-file {
+			display: inline-flex;
+
+			img {
+				display: none !important;
+			}
+
+		}
+
+		span.delete-file::before {
+			content: '✕';
+		}
+
+	}
+
+	.grecaptcha-badge {
+		visibility: hidden;
+	}
+
+}

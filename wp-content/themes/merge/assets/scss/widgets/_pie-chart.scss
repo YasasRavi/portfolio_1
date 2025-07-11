@@ -1,0 +1,42 @@
+/* WIDGET: PIE CHART
+-------------------------------------------- */
+
+.vlt-pie-chart {
+	--final-value: 0;
+	--thickness: 4px;
+	--size: #{px2rem(180px)};
+	--duration: 300ms;
+	--track-color: var(--vlt-color-light-black);
+	--bar-color: var(--vlt-color-accent);
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: var(--size);
+	height: var(--size);
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: conic-gradient(var(--bar-color) calc(var(--final-value) * 1%), var(--track-color) 0);
+		border-radius: 50%;
+		mask: radial-gradient(closest-side, transparent calc(100% - var(--thickness)), var(--bar-color) calc(100% - var(--thickness) + 1px));
+	}
+
+	&__title {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		display: inline-flex;
+		margin: 0;
+		color: var(--vlt-color-accent);
+		white-space: pre-wrap;
+		transform: translate3d(-50%, -50%, 0);
+		@include vlt_secondary_medium_36;
+	}
+
+}

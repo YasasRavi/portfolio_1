@@ -1,0 +1,25 @@
+/* PARTIAL: SITE OVERLAY
+-------------------------------------------- */
+
+.vlt-site-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	visibility: hidden;
+	background-color: var(--vlt-color-black-0p5);
+	opacity: 0;
+	transition: all var(--vlt-transition-duration) var(--vlt-transition-easing);
+	will-change: opacity, visibility;
+	z-index: z("site-overlay");
+	backdrop-filter: grayscale(1) contrast(3) blur(30px);
+	@include vlt_admin_sticky_fix_default;
+
+	&.is-open {
+		visibility: visible;
+		opacity: 1;
+	}
+
+}

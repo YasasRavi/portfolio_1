@@ -1,0 +1,70 @@
+<?php eronment_bunch_global_variable();
+	$options = _WSH()->option();
+	get_header(); 
+	$meta = _WSH()->get_term_meta( '_bunch_category_settings' );
+	_WSH()->page_settings = $meta; 
+	if(eronment_set($_GET, 'layout_style')) $layout = eronment_set($_GET, 'layout_style'); else
+	$layout = eronment_set( $meta, 'layout', 'right' );
+	$sidebar = eronment_set( $meta, 'sidebar', 'blog-sidebar' );
+	$classes = ( !$layout || $layout == 'full' || eronment_set($_GET, 'layout_style')=='full' ) ? ' col-lg-12 col-md-12 col-sm-12 col-xs-12 ' : ' col-lg-8 col-md-12 col-sm-12 col-xs-12 ' ;
+	$bg = eronment_set($meta, 'header_img');
+	$title = eronment_set($meta, 'header_title');
+?>
+<!--Page Title-->
+<?php if(!eronment_set($options, 'tag_settings')):?>
+ <?php get_template_part( 'post_bread' ); ?>
+<?php endif;?>
+<!--Sidebar Page-->
+
+    <!--Sidebar Page Container-->
+    <div class="sidebar-page-container">
+    	<div class="auto-container">
+        	<div class="row clearfix">
+            
+            <!-- sidebar area -->
+			<?php if( $layout == 'left' ): ?>
+			<?php if ( is_active_sidebar( $sidebar ) ) { ?>
+			<div class="sidebar-side col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                	<aside class="sidebar">
+					<?php dynamic_sidebar( $sidebar ); ?>
+				</aside>
+            </div>
+			<?php } ?>
+			<?php endif; ?>
+           
+			   <div class="content-side <?php echo esc_attr($classes);?>">
+                	<div class="our-blog padding-right">
+					<?php while( have_posts() ): the_post();?>
+                        <!-- blog post item -->
+                        <!-- Post -->
+                        <div id="post-<?php the_ID(); ?>" <?php post_class();?>>
+                            <?php get_template_part( 'blog' ); ?>
+                        <!-- blog post item -->
+                        </div><!-- End Post -->
+                    <?php endwhile;?>
+                    <!--Start post pagination-->
+                    <div class="styled-pagination">
+                        <?php eronment_the_pagination(); ?>
+                    </div>
+                    <!--End post pagination-->
+                </div>
+            </div>
+            <!--Content Side-->
+            
+            <!--Sidebar-->	
+            <!-- sidebar area -->
+			<?php if ( is_active_sidebar( $sidebar ) ) { ?>
+			<div class="sidebar-side col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                	<aside class="sidebar">
+					<?php dynamic_sidebar( $sidebar ); ?>
+				</aside>
+            </div>
+			<?php } ?>
+			
+            <!--Sidebar-->
+            
+        </div>
+    </div>
+    </div>
+
+<?php get_footer(); ?>

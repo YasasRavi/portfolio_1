@@ -1,0 +1,31 @@
+/* PAGE: 404
+-------------------------------------------- */
+
+.vlt-page--404 {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	padding: px2rem(120px) 0;
+
+	@include media-breakpoint-up(xl) {
+
+		.vlt-is--header-bar & {
+			min-height: calc(100vh - calc(var(--vlt-navbar-height) * 2));
+		}
+
+	}
+
+	span.vlt-badge {
+		margin-bottom: px2rem(25px);
+	}
+
+	h1 {
+		color: var(--vlt-color-accent);
+	}
+
+	p {
+		max-width: px2rem(485px);
+		margin: px2rem(20px) auto px2rem(40px);
+	}
+
+}

@@ -1,0 +1,58 @@
+/* WIDGET: UNDERLINE LINK
+-------------------------------------------- */
+
+.vlt-underline-link {
+	display: inline-flex;
+	align-items: center;
+	color: var(--vlt-color-gray-0p6);
+	@include vlt_display_1;
+
+	.overflow-hidden {
+		display: inherit;
+	}
+
+	.icon {
+		position: relative;
+		left: 0;
+		display: inline-flex;
+		transition: left var(--vlt-transition-duration) var(--vlt-transition-easing);
+
+		svg:first-child {
+			position: absolute;
+			left: -1em;
+		}
+
+	}
+
+	.left {
+		margin-right: .6em;
+	}
+
+	.right {
+		margin-left: .6em;
+	}
+
+	span {
+		background-image: linear-gradient(to top, currentColor 2px, transparent 2px);
+		background-repeat: no-repeat;
+		background-position: 100% 0;
+		background-size: 100% 100%;
+		transition: background-size var(--vlt-transition-duration) var(--vlt-transition-easing);
+	}
+
+	&:hover {
+		color: var(--vlt-color-white);
+
+		.icon {
+			left: 1em;
+		}
+
+		span {
+			background-position-x: 0;
+			background-size: 100% 100%;
+			animation: vlt_underline_link calc(var(--vlt-transition-duration) * 2) var(--vlt-transition-easing);
+		}
+
+	}
+
+}

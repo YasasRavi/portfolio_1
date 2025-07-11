@@ -1,0 +1,30 @@
+/* WIDGET: DIVIDER
+-------------------------------------------- */
+
+.vlt-divider {
+	position: relative;
+	width: 100%;
+	height: 1.5px;
+	margin: px2rem(10px) 0;
+	color: var(--vlt-border-color);
+	background-color: currentColor;
+	opacity: 1;
+
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		top: -4px;
+		left: 0;
+		width: 9px;
+		height: 9px;
+		background-color: currentColor;
+		transform: rotate(45deg);
+	}
+
+	&::after {
+		right: 0;
+		left: auto;
+	}
+
+}

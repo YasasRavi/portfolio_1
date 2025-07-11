@@ -1,0 +1,13 @@
+/* WIDGET: SLIDER CONTROLS
+-------------------------------------------- */
+
+.vlt-slider-controls {
+	display: inline-flex;
+
+	.swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
+	.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+		left: unset;
+		transform: none;
+	}
+
+}

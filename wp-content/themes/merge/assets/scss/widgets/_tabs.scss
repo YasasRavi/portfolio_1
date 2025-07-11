@@ -1,0 +1,245 @@
+/* WIDGET: TABS
+-------------------------------------------- */
+
+.vlt-tabs {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+
+	li + li {
+		margin-left: px2rem(15px);
+	}
+
+	.vlt-tab {
+		position: relative;
+		display: inline-block;
+		padding: px2rem(10px) px2rem(16px);
+		overflow: hidden;
+		color: var(--vlt-color-gray);
+		cursor: pointer;
+		transition: color var(--vlt-transition-duration) var(--vlt-transition-easing);
+		z-index: 1;
+		@include vlt_primary_bold_12;
+
+		&::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-color: var(--vlt-color-accent);
+			border-radius: calc(var(--vlt-border-radius) * 10);
+			opacity: 0;
+			transition: opacity var(--vlt-transition-duration) var(--vlt-transition-easing), transform var(--vlt-transition-duration) var(--vlt-transition-easing);
+			transform: scale(.8);
+			will-change: transform, opacity;
+			z-index: -1;
+		}
+
+		&.is-active {
+			color: var(--vlt-color-black);
+
+			&::after {
+				opacity: 1;
+				transform: scale(1);
+			}
+
+		}
+
+	}
+
+}
+
+.vlt-tab-content {
+
+	.vlt-tab-content__item {
+		display: none;
+
+		p:last-of-type {
+			margin-bottom: 0;
+		}
+
+	}
+
+}
+
+.vlt-fullpage-slider {
+	height: 100vh;
+
+	.vlt-section {
+		background-color: var(--vlt-color-black);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+		&__vertical-align {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			min-height: 100%;
+			overflow: hidden;
+			flex-direction: column;
+			flex: 0 0 auto;
+		}
+
+		&__content {
+			position: relative;
+			display: flex;
+			align-items: center;
+			width: 100%;
+			min-height: 100%;
+			padding-top: px2rem(120px);
+			padding-bottom: px2rem(120px);
+			z-index: 2;
+			flex: 1 1 auto;
+		}
+
+		// overlay
+		&__overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			pointer-events: none;
+			background: var(--vlt-overlay-background);
+			z-index: -1;
+		}
+
+		// video background
+		&__video {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			pointer-events: none;
+			z-index: -1;
+		}
+
+		// ken burn effect
+		&__ken-burn-background {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			pointer-events: none;
+			z-index: -1;
+
+			img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				transition: transform 2.5s var(--vlt-transition-easing);
+				transform: scale(1.5);
+				will-change: transform;
+				object-fit: cover;
+			}
+
+		}
+
+		&.active .vlt-section__ken-burn-background img {
+			transition: transform 5s var(--vlt-transition-easing);
+			transform: scale(1);
+			backface-visibility: hidden;
+		}
+
+		&__circles {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			pointer-events: auto;
+			z-index: -1;
+
+			.vlt-circle {
+				position: absolute;
+			}
+
+		}
+
+		&__particles {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			pointer-events: auto;
+			z-index: -1;
+
+			.vlt-particle {
+				position: absolute;
+				background-repeat: no-repeat;
+			}
+
+		}
+
+		&__elementor {
+			width: 100%;
+			padding: 0;
+			margin-right: auto;
+			margin-left: auto;
+
+			// @include media-breakpoint-up(md) {
+			// 	padding: 0 calc(px2rem(30px) - 15px);
+			// }
+
+			// @include media-breakpoint-up(xl) {
+			// 	padding: 0 calc(px2rem(60px) - 15px);
+			// }
+
+		}
+
+	}
+
+}
+
+.vlt-fullpage-slider-progress {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: px2rem(15px);
+
+	&__total,
+	&__current {
+		min-height: 1.5em;
+		text-align: center;
+		text-orientation: mixed;
+		writing-mode: vertical-rl;
+		@include vlt_display_1;
+	}
+
+	&__bar {
+		position: relative;
+		width: 1.5px;
+		height: px2rem(180px);
+		background-color: var(--vlt-border-color);
+		flex-shrink: 0;
+
+		> .bar {
+			position: absolute;
+			top: 0;
+			left: calc(50% - 1.5px);
+			width: 3px;
+			height: 100%;
+			background-color: var(--vlt-color-accent);
+			border-radius: var(--vlt-border-radius);
+			transition: transform var(--vlt-transition-duration) var(--vlt-transition-easing);
+			transform-origin: top;
+			will-change: transform;
+		}
+
+	}
+
+}

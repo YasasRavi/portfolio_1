@@ -1,0 +1,59 @@
+/* POST: SINGLE POST
+-------------------------------------------- */
+
+.vlt-single-post {
+
+	&__header {
+		margin-bottom: px2rem(40px);
+
+		.vlt-post-back {
+			margin-bottom: px2rem(25px);
+		}
+
+		.vlt-post-meta {
+			margin-top: px2rem(20px);
+		}
+
+	}
+
+	&__media {
+		margin-bottom: px2rem(50px);
+	}
+
+	&__footer {
+		display: flex;
+		justify-content: space-between;
+		margin-top: px2rem(60px);
+
+		.vlt-post-tags {
+			display: flex;
+			align-items: center;
+			margin-top: px2rem(-16px);
+			flex-wrap: wrap;
+
+			a {
+				margin-top: px2rem(16px);
+				margin-right: px2rem(16px);
+				@extend %vlt_tag_button;
+			}
+
+		}
+
+		.vlt-post-views {
+			display: inline-flex;
+			align-items: center;
+			@include vlt_display_2;
+
+			svg {
+				margin-right: .6em;
+			}
+
+		}
+
+	}
+
+}
+
+.vlt-also-like-posts {
+	margin-top: px2rem(100px);
+}

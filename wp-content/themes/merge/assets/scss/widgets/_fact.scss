@@ -1,0 +1,39 @@
+/* WIDGET: FACT
+-------------------------------------------- */
+
+.vlt-fact {
+	display: flex;
+	align-items: center;
+	gap: px2rem(25px);
+
+	&__avatars {
+		display: flex;
+		z-index: 1;
+		flex-shrink: 0;
+
+		> img {
+			position: relative;
+			max-height: px2rem(55px);
+			border-radius: 100% !important;
+		}
+
+		img + img {
+			margin-left: px2rem(-15px);
+		}
+
+		img:nth-child(2) {
+			z-index: -1;
+		}
+
+		img:nth-child(3) {
+			z-index: -2;
+		}
+
+	}
+
+	&__text {
+		margin: px2rem(2px) 0 0;
+		@include vlt_primary_regular_14;
+	}
+
+}

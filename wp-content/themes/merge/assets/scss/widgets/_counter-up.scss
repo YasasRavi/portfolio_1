@@ -1,0 +1,46 @@
+/* WIDGET: COUNTER UP
+-------------------------------------------- */
+
+.vlt-counter-up {
+
+	&__number {
+		display: inline-flex;
+		justify-content: center;
+		color: var(--vlt-color-white);
+		white-space: pre-wrap;
+		@include vlt_secondary_medium_44;
+
+		.prefix,
+		.suffix {
+			color: var(--vlt-color-accent);
+		}
+
+	}
+
+	&__title {
+		margin: px2rem(5px) 0 0;
+		color: var(--vlt-color-gray);
+	}
+
+}
+
+.vlt-counter-up-small {
+	display: flex;
+	align-items: center;
+	gap: px2rem(20px);
+
+	&__number {
+		display: inline-flex;
+		justify-content: center;
+		margin-top: -.1em;
+		color: var(--vlt-color-accent);
+		white-space: pre-wrap;
+		@include vlt_secondary_medium_44;
+	}
+
+	&__title {
+		margin: 0;
+		color: var(--vlt-color-gray);
+	}
+
+}

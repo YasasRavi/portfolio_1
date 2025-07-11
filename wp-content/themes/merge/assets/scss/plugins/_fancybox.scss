@@ -1,0 +1,84 @@
+/* PLUGIN: FANCYBOX
+-------------------------------------------- */
+
+.fancybox-container {
+	z-index: z("fancybox");
+	backdrop-filter: grayscale(1) contrast(3) blur(30px);
+}
+
+.fancybox-bg {
+	background-color: var(--vlt-color-black-0p5);
+}
+
+.fancybox-is-open .fancybox-bg {
+	opacity: 1;
+}
+
+.fancybox-loading {
+	border: 1.5px solid var(--vlt-color-white-0p1);
+	border-top-color: var(--vlt-color-accent);
+}
+
+/* BUTTONS
+-------------------------------------------- */
+
+.fancybox-navigation,
+.fancybox-toolbar,
+.fancybox-content {
+
+	.fancybox-button {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: var(--vlt-navbar-height);
+		height: var(--vlt-navbar-height);
+		padding: 0;
+		overflow: hidden;
+		font-size: px2rem(32px);
+		color: var(--vlt-color-white);
+		cursor: pointer;
+		background-color: var(--vlt-color-black-0p9);
+		border-radius: 0;
+		backdrop-filter: blur(var(--vlt-backdrop-filter-blur));
+
+		svg {
+			height: 1em;
+		}
+
+	}
+
+	.fancybox-close-small {
+		top: calc(var(--vlt-navbar-height) / -2);
+		right: calc(var(--vlt-navbar-height) / -2);
+		opacity: 1;
+	}
+
+}
+
+.fancybox-infobar {
+	top: px2rem(16px);
+	left: px2rem(16px);
+}
+
+.fancybox-toolbar {
+	right: 0;
+	@include vlt_admin_sticky_fix_default;
+}
+
+.fancybox-navigation .fancybox-button--arrow_left {
+	left: px2rem(16px);
+
+	&:hover i {
+		animation: vlt_animate_icon_left var(--vlt-transition-duration) var(--vlt-transition-easing) forwards;
+	}
+
+}
+
+.fancybox-navigation .fancybox-button--arrow_right {
+	right: px2rem(16px);
+
+	&:hover i {
+		animation: vlt_animate_icon_right var(--vlt-transition-duration) var(--vlt-transition-easing) forwards;
+	}
+
+}

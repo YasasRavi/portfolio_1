@@ -1,0 +1,24 @@
+/* WIDGET: CONTENT SLIDER
+-------------------------------------------- */
+
+.vlt-content-slider {
+	width: 100%;
+
+	&[data-slides-centered=yes] {
+
+		.swiper-slide {
+			overflow: unset;
+
+			@include media-breakpoint-up(md) {
+				width: auto !important;
+			}
+
+		}
+
+		.swiper {
+			overflow: unset;
+		}
+
+	}
+
+}

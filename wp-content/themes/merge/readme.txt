@@ -1,0 +1,1 @@
+Docs here: https://docs.vlthemes.me/docs/merge/

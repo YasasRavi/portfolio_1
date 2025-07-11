@@ -1,0 +1,37 @@
+/* WIDGET: PHONE BLOCK
+-------------------------------------------- */
+
+.vlt-phone-block {
+	display: inline-flex;
+	align-items: center;
+
+	&__icon {
+		margin-right: px2rem(20px);
+		flex-shrink: 0;
+	}
+
+	&__text {
+		flex-basis: 100%;
+	}
+
+	&__title {
+		margin-bottom: px2rem(4px);
+	}
+
+	&.vlt-phone-block--phone:hover {
+
+		.vlt-phone-block__icon svg {
+			animation: vlt_call_phone 1s forwards var(--vlt-transition-easing);
+		}
+
+	}
+
+	&.vlt-phone-block--email:hover {
+
+		.vlt-phone-block__icon svg {
+			animation: vlt_shake 1s forwards var(--vlt-transition-easing);
+		}
+
+	}
+
+}

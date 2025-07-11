@@ -1,0 +1,73 @@
+/* WIDGET: PARTNER
+-------------------------------------------- */
+
+/* PARTNER
+-------------------------------------------- */
+
+.vlt-partner {
+	display: flex;
+	align-items: center;
+	min-height: px2rem(55px);
+	cursor: pointer;
+	flex-shrink: 0;
+
+	img {
+		opacity: 0.6;
+		transition: opacity var(--vlt-transition-duration) linear;
+		flex-shrink: 0;
+	}
+
+	&:hover img {
+		opacity: 1;
+	}
+
+	&--left {
+		justify-content: flex-start;
+	}
+
+	&--center {
+		justify-content: center;
+	}
+
+	&--right {
+		justify-content: flex-end;
+	}
+
+}
+
+.elementor .vlt-partner img {
+	width: revert-layer;
+}
+
+/* PARTNERS
+-------------------------------------------- */
+
+.vlt-partners {
+	$cols-xl: 6;
+	$cols-lg: 4;
+	$cols-sm: 2;
+
+	display: grid;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+
+	@include media-breakpoint-up(lg) {
+		grid-template-columns: repeat($cols-xl, 1fr);
+	}
+
+	@include media-breakpoint-down(lg) {
+		grid-template-columns: repeat($cols-lg, 1fr);
+	}
+
+	@include media-breakpoint-down(sm) {
+		grid-template-columns: repeat($cols-sm, 1fr);
+	}
+
+	li {
+		justify-content: center;
+		min-height: px2rem(80px);
+		flex-shrink: 0;
+	}
+
+}

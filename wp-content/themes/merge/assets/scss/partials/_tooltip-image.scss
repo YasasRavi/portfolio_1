@@ -1,0 +1,34 @@
+/* PARTIAL: TOOLTIP IMAGE
+-------------------------------------------- */
+
+.vlt-hover-reveal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: px2rem(360px);
+	height: px2rem(270px);
+	pointer-events: none;
+	opacity: 0;
+	z-index: z("tooltip-image");
+
+	&__inner,
+	&__img {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		filter: brightness(100%) contrast(100%) saturate(10%) blur(0px) hue-rotate(0deg);
+	}
+
+	&__inner {
+		overflow: hidden;
+	}
+
+	&__img {
+		overflow: hidden;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		border-radius: calc(var(--vlt-border-radius) * 3);
+	}
+
+}

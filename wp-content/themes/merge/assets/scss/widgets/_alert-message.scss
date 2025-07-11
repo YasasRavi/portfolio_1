@@ -1,0 +1,60 @@
+/* WIDGET: ALERT MESSAGE
+-------------------------------------------- */
+
+.vlt-alert-message {
+	position: relative;
+	padding: px2rem(25px) px2rem(30px) !important; // cf7 fix
+	margin: 0;
+	overflow: hidden;
+	color: var(--vlt-color-black);
+	text-align: left;
+	list-style-type: none;
+	border: none !important; // cf7 fix
+	border-radius: calc(var(--vlt-border-radius) * 4);
+	@include vlt_gradient_animation;
+
+	&--has-dismiss {
+
+		.vlt-alert-message__inner {
+			padding-right: px2rem(20px);
+		}
+
+	}
+
+	&__inner {
+		display: flex;
+
+		> i,
+		> svg {
+			margin-right: 1.2em;
+			font-size: 1.2em;
+			color: var(--vlt-color-accent);
+			align-self: center;
+		}
+
+	}
+
+	&__dismiss {
+		position: absolute;
+		top: 50%;
+		right: px2rem(32px);
+		font-size: px2rem(22px);
+		line-height: 1;
+		color: currentColor;
+		transform: translate3d(0, -50%, 0);
+
+		&:hover {
+			color: currentColor;
+		}
+
+	}
+
+	p:first-of-type {
+		margin-top: 0;
+	}
+
+	p:last-of-type {
+		margin-bottom: 0;
+	}
+
+}

@@ -1,0 +1,44 @@
+/* PLUGIN: TIPPY
+-------------------------------------------- */
+
+[data-theme="vlt"] {
+
+	&.tippy-box {
+		color: var(--vlt-color-dark-white);
+		background-color: var(--vlt-color-light-black);
+		border-radius: var(--vlt-border-radius);
+		@include vlt_display_2;
+
+		.tippy-content {
+			padding: px2rem(6px) px2rem(12px);
+		}
+
+		&[data-placement^=top]>.tippy-arrow::before {
+			border-top-color: var(--vlt-color-light-black);
+		}
+
+		&[data-placement^=right]>.tippy-arrow::before {
+			border-right-color: var(--vlt-color-light-black);
+		}
+
+		&[data-placement^=bottom]>.tippy-arrow::before {
+			border-bottom-color: var(--vlt-color-light-black);
+		}
+
+		&[data-placement^=left]>.tippy-arrow::before {
+			border-left-color: var(--vlt-color-light-black);
+		}
+
+	}
+
+}
+
+.tippy-box[data-theme="empty"] {
+	background: none;
+	border-radius: 0;
+
+	.tippy-content {
+		padding: 0;
+	}
+
+}

@@ -1,0 +1,25 @@
+/* PARTIAL: MARQUEE TEXT
+-------------------------------------------- */
+
+[data-marquee] {
+	display: flex;
+	width: fit-content;
+	flex-direction: row;
+	-webkit-font-smoothing: antialiased;
+	flex: auto;
+
+	[data-marquee-text] {
+		display: inline-flex;
+		align-items: center;
+		padding-right: 1em;
+		white-space: nowrap;
+		will-change: transform;
+
+		svg {
+			margin-left: 1em;
+			font-size: map-get($scales, "s6");
+		}
+
+	}
+
+}

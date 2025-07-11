@@ -1,0 +1,73 @@
+/* PARTIAL: POST MEDIA
+-------------------------------------------- */
+
+.vlt-post-media,
+.vlt-post .vp-portfolio__item-img-wrap {
+	position: relative;
+	overflow: hidden;
+
+	&__image {
+		position: relative;
+	}
+
+	&__image,
+	.vp-portfolio__item-img {
+		overflow: hidden;
+		border-radius: calc(var(--vlt-border-radius) * 4);
+
+		img {
+			display: block;
+			width: 100%;
+			margin: 0 auto;
+			transition: transform 1s var(--vlt-transition-easing), filter 1s var(--vlt-transition-easing);
+			backface-visibility: hidden;
+			will-change: transform;
+		}
+
+	}
+
+	&__audio,
+	&__video {
+
+		.plyr__poster {
+			background-size: cover !important;
+		}
+
+		iframe {
+			display: block;
+			width: 100%;
+		}
+
+	}
+
+	&__video {
+		overflow: hidden;
+		border-radius: calc(var(--vlt-border-radius) * 4);
+	}
+
+}
+
+.vlt-post-media__image + .vlt-post-media__audio {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+
+	.plyr__controls {
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+
+}
+
+.vlt-post:hover {
+
+	.vlt-post-media__image,
+	.vp-portfolio__item-img-wrap {
+
+		img {
+			filter: brightness(100%) contrast(100%) saturate(10%) blur(0px) hue-rotate(0deg);
+			transform: scale(1.05);
+		}
+
+	}
+
+}

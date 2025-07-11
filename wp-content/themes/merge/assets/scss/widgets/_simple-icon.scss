@@ -1,0 +1,25 @@
+/* WIDGET: SIMPLE ICON
+-------------------------------------------- */
+
+.vlt-simple-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: px2rem(45px);
+	height: px2rem(45px);
+	line-height: 1;
+	color: var(--vlt-color-black);
+	background-color: var(--vlt-color-accent);
+	border-radius: 50%;
+
+	img {
+		display: block;
+		width: auto;
+		height: 1em !important;
+	}
+
+	svg {
+		height: 1em;
+	}
+
+}

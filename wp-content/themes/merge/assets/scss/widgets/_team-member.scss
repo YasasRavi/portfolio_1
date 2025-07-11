@@ -1,0 +1,64 @@
+/* WIDGET: TEAM MEMBER
+-------------------------------------------- */
+
+.vlt-team-member {
+
+	&__avatar {
+		position: relative;
+		overflow: hidden;
+		border-radius: calc(var(--vlt-border-radius) * 4);
+
+		img {
+			display: block;
+			width: 100%;
+			margin: 0 auto;
+			transition: transform 1s var(--vlt-transition-easing), filter 1s var(--vlt-transition-easing) !important;
+			backface-visibility: hidden;
+			will-change: transform;
+			object-fit: cover;
+		}
+
+	}
+
+	&__socials {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: 10% px2rem(25px) px2rem(25px);
+		color: var(--vlt-color-black);
+		text-align: center;
+		background-image: var(--vlt-linear-gradient-accent);
+		transition: all var(--vlt-transition-duration) var(--vlt-transition-easing);
+		transform: translateY(100%);
+
+		a:hover {
+			color: inherit;
+		}
+
+	}
+
+	&__content {
+		padding: px2rem(20px) 0 0;
+	}
+
+	&__function {
+		margin: 0;
+		color: var(--vlt-color-gray);
+		@include vlt_primary_regular_14;
+	}
+
+	&:hover {
+
+		.vlt-team-member__avatar img {
+			filter: brightness(100%) contrast(100%) saturate(10%) blur(0px) hue-rotate(0deg);
+			transform: scale(1.05);
+		}
+
+		.vlt-team-member__socials {
+			transform: translateY(0);
+		}
+
+	}
+
+}

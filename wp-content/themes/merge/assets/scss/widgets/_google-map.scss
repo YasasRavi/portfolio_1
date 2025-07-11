@@ -1,0 +1,56 @@
+/* WIDGET: GOOGLE MAP
+-------------------------------------------- */
+
+.vlt-google-map {
+
+	&__container {
+		font-family: var(--vlt-primary-font);
+		color: var(--vlt-color-black);
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			margin: 0 0 px2rem(5px);
+			color: var(--vlt-color-black);
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+
+	}
+
+	.gm-style {
+
+		.gm-style-iw-c {
+			padding: px2rem(10px) px2rem(25px) !important;
+			background-color: var(--vlt-color-accent);
+			border-radius: var(--vlt-border-radius);
+			box-shadow: none;
+		}
+
+		.gm-style-iw-d {
+			overflow: unset !important;
+			@include vlt_primary_regular_14;
+		}
+
+		.gm-style-iw-t::after {
+			background: linear-gradient(45deg,var(--vlt-color-accent) 50%, transparent 51%, transparent 100%);
+			box-shadow: none;
+		}
+
+		.gm-style-iw-tc::after {
+			background: var(--vlt-color-accent);
+		}
+
+		button[title=Close] {
+			top: 0 !important;
+			right: 0 !important;
+		}
+
+	}
+
+}

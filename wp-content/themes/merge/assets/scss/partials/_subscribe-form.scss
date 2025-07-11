@@ -1,0 +1,94 @@
+/* PARTIAL: SUBSCRIBE FORM
+-------------------------------------------- */
+
+.vlt-subscribe-form {
+	position: relative;
+
+	input[type=email] {
+		height: px2rem(50px);
+		padding-right: px2rem(50px);
+	}
+
+	button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: px2rem(50px);
+		height: px2rem(50px);
+		margin: 0;
+		font-size: map-get($scales, "s7");
+		color: var(--vlt-color-black);
+		cursor: pointer;
+		background: none;
+		background-color: var(--vlt-color-accent);
+		border: none;
+		border-radius: calc(var(--vlt-border-radius) * 10);
+
+		.overflow-hidden {
+			display: inherit;
+		}
+
+		.icon {
+			position: relative;
+			left: 0;
+			display: inline-flex;
+			transition: left var(--vlt-transition-duration) var(--vlt-transition-easing);
+
+			svg:first-child {
+				position: absolute;
+				left: 1em;
+			}
+
+		}
+
+		&:hover {
+
+			.icon {
+				left: -1em;
+			}
+
+		}
+
+	}
+
+}
+
+/* SECTION: STYLE 2
+-------------------------------------------- */
+
+.vlt-subscribe-form--style-2 {
+	display: flex;
+
+	input[type=email] {
+		padding-top: px2rem(14px);
+		padding-bottom: px2rem(14px);
+	}
+
+	button {
+		margin-left: px2rem(10px);
+		flex-shrink: 0;
+	}
+
+}
+
+/* SECTION: STYLE 3
+-------------------------------------------- */
+
+.vlt-subscribe-form--style-3 {
+	display: flex;
+
+	input[type=email] {
+		padding-top: px2rem(14px);
+		padding-bottom: px2rem(14px);
+		background-color: var(--vlt-background-shade-4);
+	}
+
+	button {
+		margin-left: px2rem(10px);
+		flex-shrink: 0;
+	}
+
+}

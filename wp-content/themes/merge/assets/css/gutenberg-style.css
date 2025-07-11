@@ -1,0 +1,39 @@
+/* Gutenberg Editor Stylesheet
+ * Version: 1.0
+ *
+ * Powered by VLThemes
+ */
+:root {
+  --vlt-navbar-height: px2rem(100px);
+  --vlt-transition-duration: 300ms;
+  --vlt-transition-easing: ease-in-out;
+  --vlt-backdrop-filter-blur: px2rem(4px);
+  --vlt-backdrop-filter-blur-lg: px2rem(20px);
+  --vlt-font-weight-regular: 400;
+  --vlt-font-weight-medium: 500;
+  --vlt-font-weight-bold: 700;
+  --vlt-linear-gradient: linear-gradient(100deg, hsl(0deg, 0%, 40%) 0%, hsl(0deg, 100%, 100%) 100%);
+  --vlt-linear-gradient-reverse: linear-gradient(-100deg, hsl(0deg, 0%, 40%) 0%, hsl(0deg, 100%, 100%) 100%);
+  --vlt-linear-gradient-accent: linear-gradient(180deg, hsla(var(--vlt-color-black-h), var(--vlt-color-black-s), var(--vlt-color-black-l), 0) 0%, var(--vlt-color-accent) 100%);
+  --vlt-linear-gradient-accent-horizontal: linear-gradient(90deg, hsla(var(--vlt-color-black-h), var(--vlt-color-black-s), var(--vlt-color-black-l), 0) 0%, var(--vlt-color-accent) 100%);
+  --vlt-select-icon: escape-svg(url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 8"><path fill="#999999" fill-rule="evenodd" d="m1.131.042 6 6 6-6 1.06 1.06-6.53 6.531a.75.75 0 0 1-1.06 0L.07 1.103 1.13.042Z" clip-rule="evenodd"/></svg>'));
+  --vlt-check-icon: escape-svg(url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 13"><path fill="#181818" fill-rule="evenodd" d="m18.174 1.234-11.53 11.53a.75.75 0 0 1-1.06 0L.052 7.234l1.06-1.061 5 5 11-11 1.061 1.06Z" clip-rule="evenodd"/></svg>'));
+  --plyr-color-main: var(--vlt-color-accent);
+  --plyr-audio-control-color-hover: var(--vlt-color-darker-3);
+  --plyr-audio-control-color: var(--vlt-color-darker-3);
+  --vlt-color-accent: hsl(var(--vlt-color-accent-h), var(--vlt-color-accent-s), var(--vlt-color-accent-l));
+  --vlt-color-black: hsl(var(--vlt-color-black-h), var(--vlt-color-black-s), var(--vlt-color-black-l));
+  --vlt-color-light-black: hsl(0deg, 0%, 13%);
+  --vlt-color-white: hsl(0deg, 100%, 100%);
+  --vlt-color-dark-white: hsl(0deg, 0%, 90%);
+  --vlt-color-gray: hsl(0deg, 0%, 60%);
+  --vlt-border-color: hsl(0deg, 0%, 20%);
+  --vlt-color-white-0p6: hsla(0deg, 100%, 100%, 0.6);
+  --vlt-color-gray-0p6: hsla(0deg, 0%, 60%, 0.6);
+  --vlt-color-white-0p1: hsla(0deg, 100%, 100%, 0.1);
+  --vlt-color-black-0p1: hsla(var(--vlt-color-black-h), var(--vlt-color-black-s), var(--vlt-color-black-l), 0.1);
+  --vlt-color-black-0p9: hsla(var(--vlt-color-black-h), var(--vlt-color-black-s), var(--vlt-color-black-l), 0.9);
+  --vlt-color-black-0p5: hsla(var(--vlt-color-black-h), var(--vlt-color-black-s), var(--vlt-color-black-l), 0.5);
+  --vlt-color-light-black-0p8: hsla(0deg, 0%, 13%, 0.8);
+  --vlt-color-light-black-0p5: hsla(0deg, 0%, 13%, 0.5);
+}

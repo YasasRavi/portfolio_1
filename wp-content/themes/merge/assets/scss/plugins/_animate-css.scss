@@ -1,0 +1,48 @@
+/* PLUGIN: ANIMATE CSS
+-------------------------------------------- */
+
+:root {
+	--animate-delay: 0s;
+}
+
+[data-animation-name] {
+	visibility: hidden;
+	backface-visibility: hidden;
+}
+
+[data-animation-name].animate__animated {
+	visibility: visible;
+}
+
+.animate__animated {
+	animation-delay: var(--animate-delay);
+}
+
+.animate__merge {
+	animation-name: vlt_animation_block;
+	animation-timing-function: ease-in-out;
+}
+
+.vlt-animate-element {
+	will-change: transform;
+}
+
+.animate__fadeInUpSm {
+	animation-name: vlt_fade_in_up_sm;
+	animation-timing-function: ease-in-out;
+}
+
+.animate__fadeInDownSm {
+	animation-name: vlt_fade_in_down_sm;
+	animation-timing-function: ease-in-out;
+}
+
+.animate__fadeInLeftSm {
+	animation-name: vlt_fade_in_left_sm;
+	animation-timing-function: ease-in-out;
+}
+
+.animate__fadeInRightSm {
+	animation-name: vlt_fade_in_right_sm;
+	animation-timing-function: ease-in-out;
+}

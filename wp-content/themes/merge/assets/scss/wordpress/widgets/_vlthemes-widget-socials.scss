@@ -1,0 +1,12 @@
+/* WIDGET: WIDGET SOCIALS
+-------------------------------------------- */
+
+.vlt-widget.vlt_widget_socials {
+	color: var(--vlt-color-shade-0);
+
+	.vlt-nav--fullscreen__sidebar &,
+	.vlt-nav--offcanvas__sidebar & {
+		color: inherit;
+	}
+
+}

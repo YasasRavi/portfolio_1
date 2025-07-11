@@ -1,0 +1,36 @@
+/* WIDGET: CALENDAR
+-------------------------------------------- */
+
+.vlt-widget.widget_calendar {
+
+	.wp-calendar-table {
+		background-color: transparent;
+	}
+
+	a {
+		@include vlt_underline_link;
+	}
+
+	tr,
+	td,
+	th {
+		padding: px2rem(10px) px2rem(5px);
+		text-align: center;
+	}
+
+	caption {
+		padding: px2rem(15px) 0 0;
+		color: var(--vlt-color-gray);
+	}
+
+	#today {
+		font-weight: var(--vlt-font-weight-medium);
+		color: var(--vlt-color-black);
+		background-image: var(--vlt-linear-gradient);
+	}
+
+	.wp-calendar-nav {
+		margin-top: px2rem(15px);
+	}
+
+}

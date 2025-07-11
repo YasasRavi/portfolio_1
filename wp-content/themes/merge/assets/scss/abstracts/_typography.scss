@@ -1,0 +1,163 @@
+/* SECTION: ADDITIONAL
+-------------------------------------------- */
+
+@mixin vlt_display_1 {
+	font-family: var(--vlt-primary-font);
+	font-size: map-get($scales, "s8");
+	font-weight: var(--vlt-font-weight-medium);
+	font-style: normal;
+	line-height: 140%;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+@mixin vlt_display_2 {
+	font-family: var(--vlt-primary-font);
+	font-size: map-get($scales, "s10");
+	font-weight: var(--vlt-font-weight-medium);
+	font-style: normal;
+	line-height: 140%;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+/* SECTION: PRIMARY REGULAR
+-------------------------------------------- */
+
+@mixin vlt_primary_regular_22 {
+	font-family: var(--vlt-primary-font);
+	font-size: map-get($scales, "s4");
+	font-weight: var(--vlt-font-weight-regular);
+	font-style: normal;
+	line-height: 160%;
+	letter-spacing: -0.01em;
+}
+
+@mixin vlt_primary_regular_16 {
+	font-family: var(--vlt-primary-font);
+	font-size: map-get($scales, "s7");
+	font-weight: var(--vlt-font-weight-regular);
+	font-style: normal;
+	line-height: 165%;
+	letter-spacing: 0;
+}
+
+@mixin vlt_primary_regular_14 {
+	font-family: var(--vlt-primary-font);
+	font-size: map-get($scales, "s9");
+	font-weight: var(--vlt-font-weight-regular);
+	font-style: normal;
+	line-height: 160%;
+	letter-spacing: 0;
+}
+
+/* SECTION: PRIMARY MEDIUM
+-------------------------------------------- */
+
+@mixin vlt_primary_medium_20 {
+	font-family: var(--vlt-primary-font);
+	font-size: map-get($scales, "s5");
+	font-weight: 500;
+	font-style: normal;
+	line-height: 145%;
+	letter-spacing: -0.04em;
+}
+
+@mixin vlt_primary_medium_18 {
+	font-family: var(--vlt-primary-font);
+	font-size: map-get($scales, "s6");
+	font-weight: var(--vlt-font-weight-medium);
+	font-style: normal;
+	line-height: 145%;
+	text-transform: none;
+	letter-spacing: -0.01em;
+}
+
+/* SECTION: PRIMARY BOLD
+-------------------------------------------- */
+
+@mixin vlt_primary_bold_14 {
+	font-family: var(--vlt-primary-font);
+	font-size: map-get($scales, "s9");
+	font-weight: var(--vlt-font-weight-bold);
+	font-style: normal;
+	line-height: 140%;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+@mixin vlt_primary_bold_12 {
+	font-family: var(--vlt-primary-font);
+	font-size: map-get($scales, "s10");
+	font-weight: var(--vlt-font-weight-bold);
+	font-style: normal;
+	line-height: 140%;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+/* SECTION: SECONDARY MEDIUM
+-------------------------------------------- */
+
+@mixin vlt_secondary_medium_68 {
+	font-family: var(--vlt-secondary-font);
+	font-size: map-get($scales, "s0");
+	font-weight: 500;
+	font-style: normal;
+	line-height: 140%;
+	letter-spacing: -0.04em;
+}
+
+@mixin vlt_secondary_medium_62 {
+	font-family: var(--vlt-secondary-font);
+	font-size: map-get($scales, "s1");
+	font-weight: 500;
+	font-style: normal;
+	line-height: 130%;
+	letter-spacing: -0.04em;
+}
+
+@mixin vlt_secondary_medium_44 {
+	font-family: var(--vlt-secondary-font);
+	font-size: map-get($scales, "s2");
+	font-weight: 500;
+	font-style: normal;
+	line-height: 130%;
+	letter-spacing: -0.03em;
+}
+
+@mixin vlt_secondary_medium_36 {
+	font-family: var(--vlt-secondary-font);
+	font-size: map-get($scales, "s3");
+	font-weight: 500;
+	font-style: normal;
+	line-height: 145%;
+	letter-spacing: -0.02em;
+}
+
+@mixin vlt_secondary_medium_32 {
+	font-family: var(--vlt-secondary-font);
+	font-size: map-get($scales, "s12");
+	font-weight: 500;
+	font-style: normal;
+	line-height: 145%;
+	letter-spacing: -0.01em;
+}
+
+@mixin vlt_secondary_medium_28 {
+	font-family: var(--vlt-secondary-font);
+	font-size: map-get($scales, "s11");
+	font-weight: 500;
+	font-style: normal;
+	line-height: 145%;
+	letter-spacing: -0.01em;
+}
+
+@mixin vlt_secondary_medium_22 {
+	font-family: var(--vlt-secondary-font);
+	font-size: map-get($scales, "s4");
+	font-weight: 500;
+	font-style: normal;
+	line-height: 155%;
+	letter-spacing: -0.01em;
+}

@@ -1,0 +1,178 @@
+@mixin defineColorHSL($color, $hue, $saturation, $lightness) {
+	#{$color}: unquote("hsl(#{$hue}, #{$saturation}, #{$lightness})");
+}
+
+@mixin defineColorHSLA($color, $hue, $saturation, $lightness, $alpha) {
+	#{$color}: unquote("hsla(#{$hue}, #{$saturation}, #{$lightness}, #{$alpha})");
+}
+
+@mixin clearfix {
+
+	&::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+}
+
+@mixin pseudo($display: block, $pos: absolute, $content: "") {
+	content: $content;
+	position: $pos;
+	display: $display;
+}
+
+@mixin vlt_input_placeholder {
+	&.placeholder {
+		@content;
+	}
+
+	&:-moz-placeholder {
+		@content;
+	}
+
+	&::-moz-placeholder {
+		@content;
+	}
+
+	&:-ms-vlt_input_placeholder {
+		@content;
+	}
+
+	&::-webkit-vlt_input_placeholder {
+		@content;
+	}
+}
+
+@mixin vlt_selection {
+	::-moz-selection {
+		@content;
+	}
+
+	::selection {
+		@content;
+	}
+}
+
+@mixin vlt_underline_link($underline-color: var(--vlt-color-white)) {
+	background-image: linear-gradient(to top, $underline-color 2px, transparent 2px);
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-size: 0 100%;
+	transition: background-size var(--vlt-transition-duration) var(--vlt-transition-easing), color var(--vlt-transition-duration) var(--vlt-transition-easing);
+
+	&:hover {
+		color: $underline-color;
+		background-position-x: 0;
+		background-size: 100% 100%;
+	}
+
+}
+
+@mixin vlt_underline_link_reverse($underline-color: var(--vlt-color-white)) {
+	color: $underline-color;
+	background-image: linear-gradient(to top, $underline-color 2px, transparent 2px);
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-size: 100% 100%;
+	transition: background-size var(--vlt-transition-duration) var(--vlt-transition-easing), color var(--vlt-transition-duration) var(--vlt-transition-easing);
+
+	&:hover {
+		color: $underline-color;
+		background-position-x: 0;
+		background-size: 100% 100%;
+		animation: vlt_underline_link calc(var(--vlt-transition-duration) * 2) var(--vlt-transition-easing);
+	}
+
+}
+
+@mixin vlt_gradient_animation {
+	background-image: var(--vlt-linear-gradient);
+	background-size: 200% 200%;
+	animation: vlt_gradient 8s ease infinite;
+}
+
+@mixin vlt_gradient_button {
+	color: var(--vlt-color-black);
+	background-image: var(--vlt-linear-gradient);
+	background-position: px2rem(-30px) 0;
+	background-size: calc(100% + px2rem(30px)) 100%;
+	transition: all var(--vlt-transition-duration) var(--vlt-transition-easing);
+
+	&:hover {
+		color: var(--vlt-color-black);
+		background-position: 0 0;
+	}
+
+}
+
+// @mixin vlt_gradient_link($color: var(--vlt-color-shade-0)) {
+// 	color: $color;
+// 	background: $color;
+// 	background-image: linear-gradient(100deg,var(--vlt-color-gray) 0, $color 50%);
+// 	background-position-x: 100%;
+// 	-webkit-background-clip: text;
+// 	background-size: 200% 100%;
+// 	transition: background-position var(--vlt-transition-duration) var(--vlt-transition-easing);
+// 	-webkit-text-fill-color: transparent;
+
+// 	&:hover {
+// 		background-position-x: 0;
+// 	}
+
+// }
+
+
+@mixin vlt_text_stroke($stroke-color: currentColor, $fill-color: transparent, $width: 1.5px) {
+	-webkit-text-stroke-color: $stroke-color;
+	-webkit-text-fill-color: $fill-color;
+	-webkit-text-stroke-width: $width;
+}
+
+@mixin vlt_admin_sticky_fix($offset: 0) {
+	$narrow-offset: var(--wp-admin--admin-bar--height);
+	$topbar-height: var(--vlt-topbar-min-height);
+
+	@if $offset !=0 {
+		$narrow-offset: calc($narrow-offset + $offset);
+	}
+
+	.admin-bar & {
+		top: $narrow-offset;
+
+		@media screen and (min-width: 783px) {
+			top: 0;
+		}
+
+	}
+
+}
+
+@mixin vlt_admin_sticky_fix_default($offset: 0) {
+	$narrow-offset: var(--wp-admin--admin-bar--height);
+
+	@if $offset !=0 {
+		$narrow-offset: calc($narrow-offset + $offset);
+	}
+
+	.admin-bar & {
+		top: $narrow-offset;
+	}
+
+}
+
+// @mixin vlt_badge {
+// 	display: inline-flex;
+// 	align-items: center;
+// 	justify-content: center;
+// 	padding: px2rem(4px) px2rem(18px);
+// 	font-family: var(--vlt-primary-font);
+// 	font-size: map-get($scales, "s13");
+// 	font-weight: var(--vlt-font-weight-bold);
+// 	font-style: normal;
+// 	line-height: 1.6;
+// 	text-transform: uppercase;
+// 	letter-spacing: 0;
+// 	border-radius: var(--vlt-border-radius);
+// 	@include vlt_gradient_button;
+// }

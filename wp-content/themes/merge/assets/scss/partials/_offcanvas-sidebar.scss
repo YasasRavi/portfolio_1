@@ -1,0 +1,52 @@
+/* PARTIAL: OFFCANVAS SIDEBAR
+-------------------------------------------- */
+
+.vlt-offcanvas-sidebar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	max-width: px2rem(480px);
+	padding-bottom: var(--vlt-navbar-height);
+	visibility: hidden;
+	background-color: var(--vlt-color-black);
+	transform: translate3d(100%, 0, 0);
+	backface-visibility: hidden;
+	will-change: transform;
+	z-index: z("offcanvas-sidebar");
+	@include vlt_admin_sticky_fix_default;
+
+	&__inner {
+		max-height: 100%;
+		padding: px2rem(60px) px2rem(70px) 0 calc(px2rem(70px) + px2rem(40px));
+		overflow-y: auto;
+
+		&::-webkit-scrollbar {
+			display: none;
+		}
+
+	}
+
+	.vlt-offcanvas-sidebar__marqueue {
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		width: 100vh;
+		height: px2rem(40px);
+		color: var(--vlt-color-black);
+		background-color: var(--vlt-color-accent);
+		transform: rotate(-90deg) translateX(-100%);
+		transform-origin: top left;
+	}
+
+	&-icon-close {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		@extend %vlt_navbar_btn;
+	}
+
+}

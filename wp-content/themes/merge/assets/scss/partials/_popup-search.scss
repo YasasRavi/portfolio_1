@@ -1,0 +1,75 @@
+/* PARTIAL: POPUP SEARCH
+-------------------------------------------- */
+
+.vlt-search-popup {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	padding: px2rem(130px) 0 px2rem(150px);
+	overflow: hidden;
+	color: var(--vlt-color-white);
+	visibility: hidden;
+	background-color: var(--vlt-color-light-black);
+	transform: translateY(-100%);
+	will-change: transform;
+	z-index: z('search-popup');
+	@include vlt_admin_sticky_fix_default;
+
+	&__content {
+		position: relative;
+		z-index: 2;
+
+		.vlt-search-form {
+			position: relative;
+			overflow: hidden;
+
+			label {
+				color: var(--vlt-color-gray);
+			}
+
+			input[type=text] {
+				padding: px2rem(15px) px2rem(50px) px2rem(15px) 0;
+				font-size: map-get($scales, "s11");
+				color: var(--vlt-color-white);
+
+				&:focus {
+
+					@include vlt_input_placeholder {
+						opacity: 1;
+					}
+
+				}
+
+				&:focus + button {
+					animation: vlt_animate_icon_right var(--vlt-transition-duration) var(--vlt-transition-easing) forwards;
+				}
+
+			}
+
+			button {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				padding: 0;
+				margin: 0;
+				font-size: map-get($scales, "s4");
+				color: var(--vlt-color-gray-0p6);
+				cursor: pointer;
+				background: none;
+				border: none;
+				transition: color var(--vlt-transition-duration) var(--vlt-transition-easing);
+
+				&:hover {
+					color: var(--vlt-color-white);
+				}
+
+			}
+
+		}
+
+	}
+
+}

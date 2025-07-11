@@ -1,0 +1,19 @@
+/* PARTIAL: POST META
+-------------------------------------------- */
+
+.vlt-post-meta {
+	color: var(--vlt-color-gray);
+	@include vlt_display_2;
+
+	.sep {
+		margin: 0 px2rem(10px);
+		font-size: 0.8em;
+		vertical-align: middle;
+		opacity: 0.8;
+	}
+
+	a {
+		color: var(--vlt-color-white);
+	}
+
+}

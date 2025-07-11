@@ -1,0 +1,20 @@
+/* WORDPRESS: LINK PAGES
+-------------------------------------------- */
+
+.vlt-link-pages {
+	margin-top: px2rem(30px);
+
+	h6 {
+		margin: 0 0 px2rem(8px);
+	}
+
+	.sep {
+		margin: 0 px2rem(16px);
+		color: var(--vlt-color-gray-0p6);
+	}
+
+	a {
+		@include vlt_underline_link;
+	}
+
+}
